@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Layout from "../components/Layout";
 
 function Services() {
   return (
-    <div>
-      <p>Services</p>
-    </div>
-  )
+    <Layout>
+      <div>
+        <p>Services</p>
+      </div>
+    </Layout>
+  );
 }
 
-export default Services
+export default Services;

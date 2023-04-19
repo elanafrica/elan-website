@@ -1,11 +1,14 @@
-import React from 'react'
+import Layout from "../components/Layout";
+import React from "react";
 
-function aboutUS() {
+function AboutUS() {
   return (
-    <div>
-      <p>About us</p>
-    </div>
-  )
+    <Layout>
+      <div>
+        <p>About us</p>
+      </div>
+    </Layout>
+  );
 }
 
-export default aboutUS
+export default AboutUS;

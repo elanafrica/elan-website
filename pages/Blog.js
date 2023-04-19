@@ -1,11 +1,14 @@
-import React from 'react'
+import Layout from "../components/Layout";
+import React from "react";
 
 function Blog() {
   return (
-    <div>
-      <p>Blog</p>
-    </div>
-  )
+    <Layout>
+      <div>
+        <p>Blog</p>
+      </div>
+    </Layout>
+  );
 }
 
-export default Blog
+export default Blog;

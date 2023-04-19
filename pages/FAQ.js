@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Layout from "../components/Layout";
 
 function FAQ() {
   return (
-    <div>
-      <p>FAQ</p>
-    </div>
-  )
+    <Layout>
+      <div>
+        <p>FAQ</p>
+      </div>
+    </Layout>
+  );
 }
 
-export default FAQ
+export default FAQ;

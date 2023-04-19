@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Layout from "../components/Layout";
 
 function OurWork() {
   return (
-    <div>
-      <p>Our Work</p>
-    </div>
-  )
+    <Layout>
+      <div>
+        <p>Our Work</p>
+      </div>
+    </Layout>
+  );
 }
 
-export default OurWork
+export default OurWork;

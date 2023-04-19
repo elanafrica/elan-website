@@ -1,7 +1,9 @@
-import React from "react";
+import Layout from "../components/Layout";
 
-function HomePage() {
-  return <div></div>;
+export default function HomePage() {
+  return (
+    <Layout title="HomePage">
+      <h1>Home Page</h1>
+    </Layout>
+  );
 }
-
-export default HomePage;

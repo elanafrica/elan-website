@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Layout from "../components/Layout";
 
 function Careers() {
   return (
-    <div>
-      <p>Careers</p>
-    </div>
-  )
+    <Layout>
+      <div>
+        <p>Careers</p>
+      </div>
+    </Layout>
+  );
 }
 
-export default Careers
+export default Careers;

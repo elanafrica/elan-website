@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Layout from "../components/Layout";
 
 function TrainingProg() {
   return (
-    <div>
-      <p>Training Programmes</p>
-    </div>
-  )
+    <Layout>
+      <div>
+        <p>Training Programmes</p>
+      </div>
+    </Layout>
+  );
 }
 
-export default TrainingProg
+export default TrainingProg;

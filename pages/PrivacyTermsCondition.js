@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Layout from "../components/Layout";
 
 function PrivacyTermsCondition() {
   return (
-    <div>
-      <p>Privacy Terms and Condition</p>
-    </div>
-  )
+    <Layout>
+      <div>
+        <p>Privacy Terms and Condition</p>
+      </div>
+    </Layout>
+  );
 }
 
-export default PrivacyTermsCondition
+export default PrivacyTermsCondition;

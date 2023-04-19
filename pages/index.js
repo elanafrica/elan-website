@@ -13,28 +13,27 @@ import Services from "./Services";
 import Testimonials from "./Testimonials";
 import TrainingProg from "./TrainingProg";
 import FAQ from "./FAQ";
-
+import Layout from "../components/Layout";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main>
-      <Navbar />
-
-      <HomePage />
-      <AboutUs />
-      <Blog />
-      <Careers />
-      <ContactUs />
-      <OurWork />
-      <Portfolio />
-      <PrivacyTermsCondition />
-      <Services />
-      <Testimonials />
-      <TrainingProg />
-      <FAQ />
-      <Footer />
-    </main>
+    <>
+      <main>
+        <HomePage />
+        <AboutUs />
+        <Blog />
+        <Careers />
+        <ContactUs />
+        <OurWork />
+        <Portfolio />
+        <PrivacyTermsCondition />
+        <Services />
+        <Testimonials />
+        <TrainingProg />
+        <FAQ />
+      </main>
+    </>
   );
 }

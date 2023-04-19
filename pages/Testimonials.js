@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import Layout from "../components/Layout";
 
 function Testimonials() {
   return (
-    <div>
-      <p>Testimonials</p>
-    </div>
-  )
+    <Layout>
+      <div>
+        <p>Testimonials</p>
+      </div>
+    </Layout>
+  );
 }
 
-export default Testimonials
+export default Testimonials;
