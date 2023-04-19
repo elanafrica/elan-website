@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Link from 'next/link'
 import { BsLinkedin, BsInstagram, BsTwitter, BsFacebook, BsYoutube } from 'react-icons/bs'
@@ -257,4 +258,4 @@ function Footer() {
   )
 }
 
-export default Footer
+export 
