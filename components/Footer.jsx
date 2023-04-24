@@ -21,72 +21,56 @@ function Footer() {
             suggestions.
           </p>
         </h1>
-        <div>
-          <h1 className="lg:text-2xl text-2xl mb-7">Send us your feedback</h1>
-          <form>
-            <input
-              type="text"
-              placeholder="Your Email"
-              className="text-gray-800 sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-3 rounded px-2 focus:outline-none"
-            />
-            <br /> <br />
-            <textarea
-              type="text"
-              placeholder="Send us Your Message"
-              className="text-gray-800 sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-3 rounded px-2 focus:outline-none"
-            ></textarea>
-            <br /> <br />
-            <button className="bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white sm:w-72 md:w-auto w-full">
-              Send
-            </button>
-          </form>
+        <div className="flex">
+          <div class="justify-items-start grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5 sm:px-40 px-5 py-16">
+            <ul className="">
+              <li>team@elanafrica.com</li>
+              <li>Tel: +2347031150441</li>
+              <li>+2348023033175</li>
+              <li>Lagos, Nigeria.</li>
+            </ul>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5 sm:px-40 px-5 py-16">
+            <ul className="">
+              <li>
+                <Link href="/HomePage">Home</Link>
+              </li>
+
+              <li>
+                <Link href="/AboutUs">About Us</Link>
+              </li>
+              <li>
+                <Link href="/Services">Services</Link>
+              </li>
+              <li>
+                <Link href="/OurWork">Our Work</Link>
+              </li>
+              <li>
+                <Link href="/ContactUs">Contact Us</Link>
+              </li>
+              <li>
+                <Link href="/Blog">Blog</Link>
+              </li>
+              <li>
+                <Link href="/Careers">Careers</Link>
+              </li>
+              <li>
+                <Link href="/TrainingProg">Our Trainings</Link>
+              </li>
+              <li>
+                <Link href="/Portfolio">Portfolio</Link>
+              </li>
+              <li>
+                <Link href="/FAQ">FAQ</Link>
+              </li>
+              <li>
+                <Link href="/Testimonials">Testimonials</Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="bg-[#2f6bb9]">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5 sm:px-40 px-5 py-16">
-          <ul className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-2 justify-items-start">
-            <li>
-              <Link href="/HomePage">Home</Link>
-            </li>
-
-            <li>
-              <Link href="/AboutUs">About Us</Link>
-            </li>
-            <li>
-              <Link href="/Services">Services</Link>
-            </li>
-            <li>
-              <Link href="/OurWork">Our Work</Link>
-            </li>
-            <li>
-              <Link href="/ContactUs">Contact Us</Link>
-            </li>
-            <li>
-              <Link href="/Blog">Blog</Link>
-            </li>
-            <li>
-              <Link href="/Careers">Careers</Link>
-            </li>
-            <li>
-              <Link href="/TrainingProg">Our Trainings</Link>
-            </li>
-            <li>
-              <Link href="/Portfolio">Portfolio</Link>
-            </li>
-            <li>
-              <Link href="/FAQ">FAQ</Link>
-            </li>
-            <li>
-              <Link href="/Testimonials">Testimonials</Link>
-            </li>
-          </ul>
-          <div class=" grid justify-items-start">
-            <p className="">team@elanafrica.com</p>
-            <p className="">Tel: +2347031150441</p>
-            <p class="ml-8">+2348023033175</p>
-            <p className="">Lagos, Nigeria.</p>
-          </div>
-        </div>
         <hr />
         <div className="bg-[#161515] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 pt-2 text-sm pb-5">
           <p className="mt-6 ml-12 text-3px text-lg">

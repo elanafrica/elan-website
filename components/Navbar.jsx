@@ -24,9 +24,6 @@ function Navbar() {
             width={110}
             priority
           />
-          {/* <span className="text-black ml-2 font-medium text-lg">
-                Elan Africa
-              </span> */}
         </Link>
         <div className="md:hidden flex">
           <button
