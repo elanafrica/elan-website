@@ -6,30 +6,24 @@ import logo from "../public/logo.png";
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const hrefggleMenu = () => {
+  const buttontoggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <header className="text-gray-600 body-font max-w-7xl mx-auhref">
-      <div className="container mx-auhref flex p-5 gap-3 flex-col md:flex-row items-center">
+    <header className="text-gray-600 body-font max-w-7xl mx-auto">
+      <div className="container mx-auto flex p-5 items-center justify-between">
         <Link
           href="/"
-          className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+          className="flex title-font font-medium items-center text-gray-900"
         >
-          <Image
-            className="flex title-font font-medium  text-gray-900 mb-4 md:mb-0"
-            src={logo}
-            alt="logo"
-            width={110}
-            priority
-          />
+          <Image className="" src={logo} alt="logo" width={110} priority />
         </Link>
-        <div className="md:hidden flex">
-          <buthrefn
+        <div className="md:hidden">
+          <button
             className="hamburger-menu"
             aria-label="Open Menu"
-            onClick={hrefggleMenu}
+            onClick={buttontoggleMenu}
           >
             {isOpen ? (
               <svg
@@ -62,11 +56,11 @@ function Navbar() {
                 />
               </svg>
             )}
-          </buthrefn>
+          </button>
         </div>
 
         <nav
-          className={`md:ml-auhref md:flex items-center text-base justify-center gap-4 ${
+          className={`md:ml-auto md:flex items-center text-base justify-center gap-4 ${
             isOpen ? "flex flex-col mt-4" : "hidden"
           } sm:flex-row`}
         >
