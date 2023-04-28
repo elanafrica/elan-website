@@ -1,11 +1,11 @@
 import React from "react";
 
-function Button() {
+function Buthrefn() {
   return (
     <div>
-      <p>Button</p>
+      <p>Buthrefn</p>
     </div>
   );
 }
 
-export default Button;
+export default Buthrefn;

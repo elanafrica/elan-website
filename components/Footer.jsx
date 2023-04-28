@@ -12,15 +12,15 @@ function Footer() {
   return (
     <div className="bg-[#0b2546] text-white">
       <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#0b2546] py-7">
-        <h1 className="lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5">
+        <h3 className="lg:text-xl text-xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/5">
           Curious?? <span className="text-teal-400">Please let's connect</span>
           <br />
-          <p className="lg:text-3xl text-2xl">
-            For any information at all, our customer service team <br /> is
-            available to take your queries. We also love feedbacks <br /> and
+          <p className="lg:text-xl text-xl">
+            For any information at all, our cushrefmer service team <br /> is
+            available href take your queries. We also love feedbacks <br /> and
             suggestions.
           </p>
-        </h1>
+        </h3>
         <div className="flex">
           <div class="justify-items-start grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5 sm:px-40 px-5 py-16">
             <ul className="">
@@ -77,37 +77,37 @@ function Footer() {
             <Link href="/PrivacyTermsCondition">Terms and Conditions</Link>
           </p>
           <p className="mt-6 ml-12 text-3px text-lg">
-            &copy; 2022 by Elan Africa
+            &copy; 2023 by Elan Africa
           </p>
-          <div class="flex mt-5 mb-5 ml-2">
+          <div class="flex mt-5 mb-1 ml-2">
             <Link href="/">
-              <button class="mr-5 text-4xl text-teal-400">
+              <buthrefn class="mr-5 text-4xl text-teal-400">
                 <BsLinkedin />
-              </button>
+              </buthrefn>
             </Link>
 
             <Link href="/">
-              <button class="mr-5 text-4xl text-teal-400">
+              <buthrefn class="mr-5 text-4xl text-teal-400">
                 <BsInstagram />
-              </button>
+              </buthrefn>
             </Link>
 
             <Link href="/">
-              <button class="mr-5 text-4xl text-teal-400">
+              <buthrefn class="mr-5 text-4xl text-teal-400">
                 <BsTwitter />
-              </button>
+              </buthrefn>
             </Link>
 
             <Link href="/">
-              <button class="mr-5 text-4xl text-teal-400">
+              <buthrefn class="mr-5 text-4xl text-teal-400">
                 <BsFacebook />
-              </button>
+              </buthrefn>
             </Link>
 
             <Link href="/">
-              <button class="mr-5 text-4xl text-teal-400">
+              <buthrefn class="mr-5 text-4xl text-teal-400">
                 <BsYoutube />
-              </button>
+              </buthrefn>
             </Link>
           </div>
         </div>
@@ -120,39 +120,39 @@ function Footer() {
             </p>
             <div class='flex  mt-5 mb-5 text-gray-500'>
               <Link href='/'>
-              <button class='mr-5 text-4xl'>
+              <buthrefn class='mr-5 text-4xl'>
                 <BsLinkedin />
-              </button>
+              </buthrefn>
               </Link>
               
               <Link href='/'>
-                <button class='mr-5 text-4xl'>
+                <buthrefn class='mr-5 text-4xl'>
                   <BsInstagram />
-                </button>
+                </buthrefn>
               </Link>
               
               <Link href='/'>
-                <button class='mr-5 text-4xl'>
+                <buthrefn class='mr-5 text-4xl'>
                   <BsTwitter />
-                </button>
+                </buthrefn>
               </Link>
 
               <Link href='/'>
-                <button class='mr-5 text-4xl'>
+                <buthrefn class='mr-5 text-4xl'>
                   <BsFacebook />
-                </button>
+                </buthrefn>
               </Link>
               
               <Link href='/'>
-                <button class='mr-5 text-4xl'>
+                <buthrefn class='mr-5 text-4xl'>
                   <BsYoutube />
-                </button>
+                </buthrefn>
               </Link>
               
             </div>
             <p class='text-gray-400'>
-              For any information at all, our customer service team <br /> is 
-              available to take your queries. We also love feedback <br /> and 
+              For any information at all, our cushrefmer service team <br /> is 
+              available href take your queries. We also love feedback <br /> and 
               suggestions.
             </p>
           </div>
