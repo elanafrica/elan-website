@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "@/components/Layout";
-import Logoh from "../public/elan3.PNG";
+import Logoh from "../public/elan4.PNG";
 import Elantrain1 from "../public/elantrain1.PNG";
 import Elantrain2 from "../public/elantrain2.PNG";
 import Elantrain3 from "../public/elantrain3.PNG";
@@ -21,23 +21,20 @@ import Elangrowth8 from "../public/elangrowth8.PNG";
 import Elangrowth9 from "../public/elangrowth9.PNG";
 import Image from "next/image";
 
-function ElanTraining() {
+function ElanStudio() {
   return (
-    <Layout title="ElanTraining">
+    <Layout title="ElanStudio">
       <div className="p-4">
         <div className="  ">
           <div className="relative">
             <Image className="w-full" src={Logoh} alt="Logo" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-              <div className="text-center absolute bottom-0 left-0 right-0 bg-[#3F5177]">
+              <div className="text-center absolute bottom-0 left-0 right-0 bg-[#431520]">
                 <p className="px-6 pb-6 text-xl font-bold">
-                  Where we build the right tech ecosystem that helps your
-                  business scale.
+                  Where we get obsessed with your brands' storytelling and our
+                  creativity is at its peak!
                 </p>
-                <p>
-                  We would not just identify the tech needs but also implement
-                  them
-                </p>
+                <p>Whether you've got a plan or don't? We got you!</p>
               </div>
             </div>
           </div>
@@ -220,4 +217,4 @@ function ElanTraining() {
   );
 }
 
-export default ElanTraining;
+export default ElanStudio;
