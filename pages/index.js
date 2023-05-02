@@ -22,8 +22,8 @@ export default function Home() {
     <>
       <main>
         <HomePage />
-        {/* <AboutUs />
-        <Blog />
+        <AboutUs />
+        {/* <Blog />
         <Careers />
         <ContactUs />
         <OurWork />

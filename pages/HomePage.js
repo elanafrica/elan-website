@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "@/components/Layout";
+
 import Hero from "../public/elanpic1.jpg";
 import Home1 from "../public/elanpic2.PNG";
 import Home2 from "../public/elan1.PNG";
@@ -14,21 +15,23 @@ import Show5 from "../public/show5.PNG";
 import Show6 from "../public/show6.PNG";
 import Show7 from "../public/show7.PNG";
 import Show8 from "../public/show8.PNG";
-import Brand1 from "../public/brand1.PNG";
-import Brand2 from "../public/brand2.PNG";
-import Brand3 from "../public/brand3.PNG";
-import Brand4 from "../public/brand4.PNG";
-import Brand5 from "../public/brand5.PNG";
-import Brand6 from "../public/brand6.PNG";
-import Brand7 from "../public/brand7.PNG";
-import Brand8 from "../public/brand8.PNG";
-import Brand9 from "../public/brand9.PNG";
-import Brand10 from "../public/brand10.PNG";
-import Brand11 from "../public/brand11.PNG";
-import Brand12 from "../public/brand12.PNG";
-import Brand13 from "../public/brand13.PNG";
-import Brand14 from "../public/brand14.PNG";
-import Brand15 from "../public/brand15.PNG";
+
+//importing animate on scrol
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+//importing images
+import jumia from "../public/assets/jumia.png";
+import aerix from "../public/assets/aerix.png";
+import max from "../public/assets/max.png";
+import gomarket from "../public/assets/gomarket.png";
+import microsoft from "../public/assets/microsoft.png";
+import kobo from "../public/assets/kobo.png";
+import konga from "../public/assets/konga.png";
+import fazsion from "../public/assets/fazsion.png";
+import mrprice from "../public/assets/mrprice.png";
+import playns from "../public/assets/playns.png";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -46,16 +49,22 @@ function HomePage() {
               <p className="text-xl font-light sm:w-80 w-64 mx-auto">
                 We may just know how to make that happen.
               </p>
-              <button className="bg-blue-400 hover:bg-white-500 duration-300 px-5 py-3 rounded-md text-white mt-8">
-                <Link href="/about" className="">
-                  Get Free Consultation
+              <div className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start md: flex justify-center">
+                <Link href="/">
+                  <button
+                    className="block px-6 py-2 text-center text-white bg-yellow-600 rounded-md"
+                    data-aos="fade-down"
+                    data-aos-delay="400"
+                  >
+                    Get Free Consultation
+                  </button>
                 </Link>
-              </button>
+              </div>
             </div>
           </div>
 
-          <div className="flex mt-7">
-            <div>
+          <div className="flex mt-9 p-4 g-2">
+            <div className="w-1/2">
               <h2>
                 We foster business growth and sales for{" "}
                 <span className="text-green-300">
@@ -67,27 +76,33 @@ function HomePage() {
                 Growth is our assertion. We take a data-driven approach to help
                 your business scale. We help generate scalable and predictable
               </p>
-              <button className="bg-blue-400 hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white sm:w-72 md:w-auto w-full mt-5">
-                <Link href="/about" className="">
-                  Read More
+              <div className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start md: flex justify-center mt-5">
+                <Link href="/">
+                  <button
+                    className="block px-6 py-2 text-center text-white bg-blue-600 rounded-md"
+                    data-aos="fade-down"
+                    data-aos-delay="400"
+                  >
+                    Read More
+                  </button>
                 </Link>
-              </button>
+              </div>
             </div>
 
-            <div className="">
-              <div className="flex">
-                <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 text-xl font-bold mb-4 text-white">
+            <div className="w-1/2 ">
+              <div className="flex ">
+                <div className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-2 md:pl-4 text-white text-xl font-medium py-2">
                   Data-Driven Insights for Growth.
                 </div>
-                <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 text-xl font-bold mb-4 text-white">
+                <div className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-2 md:pl-4 text-white text-xl font-medium py-2">
                   Proven Experience in Growth Strategy.
                 </div>
               </div>
-              <div className="flex">
-                <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 text-xl font-bold mb-4 text-white">
+              <div className="flex ">
+                <div className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-2 md:pl-4 text-white text-xl font-medium py-2">
                   Hands-on Business Intelligence.
                 </div>
-                <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 text-xl font-bold mb-4 text-white">
+                <div className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-2 md:pl-4 text-white text-xl font-medium py-2">
                   We take your Business quite personal.
                 </div>
               </div>
@@ -230,9 +245,9 @@ function HomePage() {
             <div className="text-xl mb-3">JRIP UK</div>
           </div>
 
-          <div className="mt-7 flex ">
-            <div>
-              <div className="p-6 text-3xl font-bold text-center w-1/2 pr-5 ">
+          <div className="mt-7  ">
+            <div className="text-center">
+              <div className="p-6 text-3xl font-bold text-center pr-5 ">
                 Brands we’ve worked with, for, and built awesome memories...
               </div>
               <hr></hr>
@@ -241,23 +256,39 @@ function HomePage() {
                 sales, creative and marketing efforts through the years.
               </p>
             </div>
-
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pr-5 w-1/2 pr-5 ">
-              <Image className="w-full" src={Brand1} alt="home1" />
-              <Image className="w-full" src={Brand2} alt="home1" />
-              <Image className="w-full" src={Brand3} alt="home1" />
-              <Image className="w-full" src={Brand4} alt="home1" />
-              <Image className="w-full" src={Brand5} alt="home1" />
-              <Image className="w-full" src={Brand6} alt="home1" />
-              <Image className="w-full" src={Brand7} alt="home1" />
-              <Image className="w-full" src={Brand8} alt="home1" />
-              <Image className="w-full" src={Brand9} alt="home1" />
-              <Image className="w-full" src={Brand10} alt="home1" />
-              <Image className="w-full" src={Brand11} alt="home1" />
-              <Image className="w-full" src={Brand12} alt="home1" />
-              <Image className="w-full" src={Brand13} alt="home1" />
-              <Image className="w-full" src={Brand14} alt="home1" />
-              <Image className="w-full" src={Brand15} alt="home1" />
+            <div className="slider my-10 ">
+              <div className="slideTrack">
+                <div className="slide">
+                  <Image src={aerix} className="imgPartner" />
+                </div>
+                <div className="slide">
+                  <Image src={max} className="imgPartner" />
+                </div>
+                <div className="slide">
+                  <Image src={gomarket} className="imgPartner" />
+                </div>
+                <div className="slide">
+                  <Image src={jumia} className="imgPartner" />
+                </div>
+                <div className="slide">
+                  <Image src={microsoft} className="imgPartner" />
+                </div>
+                <div className="slide">
+                  <Image src={fazsion} className="imgPartner" />
+                </div>
+                <div className="slide">
+                  <Image src={kobo} className="imgPartner" />
+                </div>
+                <div className="slide">
+                  <Image src={mrprice} className="imgPartner" />
+                </div>
+                <div className="slide">
+                  <Image src={playns} className="imgPartner" />
+                </div>
+                <div className="slide">
+                  <Image src={konga} className="imgPartner" />
+                </div>
+              </div>
             </div>
           </div>
         </div>

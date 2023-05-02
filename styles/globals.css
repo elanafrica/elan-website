@@ -28,7 +28,7 @@
       margin: auto;
       overflow: hidden;
       position: relative;
-    }n
+    }
     .slideTrack{
       animation: scroll 40s linear infinite;
       display: flex;
