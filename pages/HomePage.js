@@ -63,8 +63,8 @@ function HomePage() {
             </div>
           </div>
 
-          <div className="flex mt-9 p-4 g-2">
-            <div className="w-1/2">
+          <div className="flex mt-7">
+            <div>
               <h2>
                 We foster business growth and sales for{" "}
                 <span className="text-green-300">
@@ -76,7 +76,7 @@ function HomePage() {
                 Growth is our assertion. We take a data-driven approach to help
                 your business scale. We help generate scalable and predictable
               </p>
-              <div className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start md: flex justify-center mt-5">
+              <div className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start md: flex justify-center">
                 <Link href="/">
                   <button
                     className="block px-6 py-2 text-center text-white bg-blue-600 rounded-md"
@@ -89,20 +89,20 @@ function HomePage() {
               </div>
             </div>
 
-            <div className="w-1/2 ">
-              <div className="flex ">
-                <div className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-2 md:pl-4 text-white text-xl font-medium py-2">
+            <div className="">
+              <div className="flex">
+                <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 text-xl font-bold mb-4 text-white">
                   Data-Driven Insights for Growth.
                 </div>
-                <div className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-2 md:pl-4 text-white text-xl font-medium py-2">
+                <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 text-xl font-bold mb-4 text-white">
                   Proven Experience in Growth Strategy.
                 </div>
               </div>
-              <div className="flex ">
-                <div className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-2 md:pl-4 text-white text-xl font-medium py-2">
+              <div className="flex">
+                <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 text-xl font-bold mb-4 text-white">
                   Hands-on Business Intelligence.
                 </div>
-                <div className="w-full h-full bg-[rgb(7,39,78)] rounded-md p-2 md:pl-4 text-white text-xl font-medium py-2">
+                <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 text-xl font-bold mb-4 text-white">
                   We take your Business quite personal.
                 </div>
               </div>
@@ -246,8 +246,8 @@ function HomePage() {
           </div>
 
           <div className="mt-7  ">
-            <div className="text-center">
-              <div className="p-6 text-3xl font-bold text-center pr-5 ">
+            <div className="">
+              <div className="p-6 text-3xl font-bold text-center w-1/2 pr-5 ">
                 Brands we’ve worked with, for, and built awesome memories...
               </div>
               <hr></hr>
@@ -256,7 +256,7 @@ function HomePage() {
                 sales, creative and marketing efforts through the years.
               </p>
             </div>
-            <div className="slider my-10 ">
+            <div className="slider my-10 w-1/2">
               <div className="slideTrack">
                 <div className="slide">
                   <Image src={aerix} className="imgPartner" />

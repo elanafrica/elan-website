@@ -260,7 +260,7 @@ function ElanDev() {
             subject matter expertise and their years of experience working in
             managed teams.
           </p>
-          <div className="mt-9 flex justify-center flex-wrap gap-4 bg-[#16808C]">
+          <div className="mt-9 flex justify-center flex-wrap gap-4 ">
             <Image className="w-72" src={Elandevcard1} alt="elandevcard1" />
             <Image className="w-72" src={Elandevcard2} alt="elandevcard2" />
             <Image className="w-72" src={Elandevcard3} alt="elandevcard3" />
