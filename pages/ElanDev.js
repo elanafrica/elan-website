@@ -18,6 +18,7 @@ import Elandevcard3 from "../public/elandevcard3.PNG";
 import Elandevcard4 from "../public/elandevcard4.PNG";
 
 import Image from "next/image";
+import Link from "next/link";
 
 function ElanDev() {
   useEffect(() => {
@@ -427,12 +428,21 @@ function ElanDev() {
                 placeholder="Enter your message"
               ></textarea>
             </div>
-            <button
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-              type="submit"
+            <div
+              className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex  md: flex justify-center"
+              style={{ animation: "scaleIn 1s ease-in-out" }}
             >
-              Submit
-            </button>
+              <Link href="/">
+                <button
+                  className="block mt-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto"
+                  data-aos="fade-down"
+                  data-aos-delay="400"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </Link>
+            </div>
           </form>
         </div>
       </div>
