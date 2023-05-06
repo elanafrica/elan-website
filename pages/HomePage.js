@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-
+import Layout from "../components/Layout";
 import Hero from "../public/elanpic1.jpg";
 import Home1 from "../public/elanpic2.PNG";
 import Home2 from "../public/elan1.PNG";
@@ -42,22 +42,25 @@ function HomePage() {
     });
   }, []);
   return (
-    <>
+    <Layout title="HomePage">
       <div className="m-4">
         <div className="  ">
           <div className="relative">
             <Image className="w-full bg-[#0b2546]" src={Hero} alt="hero" />
-            <div className="text-overlay absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white p-5">
+            <div className="text-overlay absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white p-5 animate-slide-in-right">
               <h1 className="text-3xl sm:text-4xl font-bold capitalize mb-5">
                 Everyone Wants to Live on the Moon. Your Business Does Too.
               </h1>
               <p className="text-xl font-light sm:w-80 w-64 mx-auto">
                 We may just know how to make that happen.
               </p>
-              <div className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start md: flex justify-center">
+              <div
+                className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex  md: flex justify-center"
+                style={{ animation: "scaleIn 1s ease-in-out" }}
+              >
                 <Link href="/">
                   <button
-                    className="block px-6 py-2 text-center text-white bg-[#0b2546] rounded-md"
+                    className="block mt-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto"
                     data-aos="fade-down"
                     data-aos-delay="400"
                   >
@@ -161,12 +164,20 @@ function HomePage() {
           </div>
 
           <div className="mt-9">
-            <div className="">
-              <div className="text-5xl font-bold mb-7 text-center mt-7">
+            <div className="" style={{ animation: "scaleIn 1s ease-in-out" }}>
+              <div
+                className="text-4xl font-bold mb-7 text-center mt-7"
+                data-aos="fade-down"
+                data-aos-delay="400"
+              >
                 Our Business Solutions
               </div>
               <div className="flex flex-wrap mb-4 mt-7">
-                <div className="flex flex-col w-1/2 mb-4 px-2">
+                <div
+                  className="flex flex-col w-1/2 mb-4 px-2"
+                  data-aos="fade-down"
+                  data-aos-delay="400"
+                >
                   <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
                     <Image className="" src={Home2} alt="home1" />
                     <div className="text-xl">Elan Growth</div>
@@ -190,7 +201,11 @@ function HomePage() {
                     </button>
                   </div>
                 </div>
-                <div className="flex flex-col w-1/2 mb-4 px-2">
+                <div
+                  className="flex flex-col w-1/2 mb-4 px-2"
+                  data-aos="fade-down"
+                  data-aos-delay="400"
+                >
                   <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
                     <Image className="" src={Home4} alt="home1" />
                     <div className="text-xl">Elan Training</div>
@@ -228,33 +243,35 @@ function HomePage() {
             </div>
           </div>
 
-          <div className="bg-black text-white mt-5 text-center">
-            <div className=" p-6 text-3xl font-bold ">
+          <div className="bg-black text-white mt-5 text-center animate-fade-in">
+            <div className="p-6 text-3xl font-bold animate-slide-in-right">
               MADE FOR EVERY BUSINESS
             </div>
-            <div className=" p-6 text-3xl font-bold">
+            <div className="p-6 text-3xl font-bold animate-slide-in-left">
               We are driven by two things... Passion and Performance.
             </div>
-            <button className="bg-white-300 hover:bg-black-500 duration-300 px-5 py-3 rounded-md text-white sm:w-72 md:w-auto w-full">
-              <Link href="/about" className="bg-blue-500">
-                Learn More
+            <div className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex md:flex justify-center animate-scale-in">
+              <Link href="/">
+                <button className="block mt-5 mb-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto animate-fade-in">
+                  Learn more
+                </button>
               </Link>
-            </button>
+            </div>
           </div>
 
-          <div className="mt-7 ">
+          <div className="mt-7 homepage2 ">
             <div className="p-6 text-3xl font-bold text-center">
               What we get up to!
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pr-5">
-              <Image className="w-full" src={Show1} alt="home1" />
-              <Image className="w-full" src={Show2} alt="home1" />
-              <Image className="w-full" src={Show3} alt="home1" />
-              <Image className="w-full" src={Show4} alt="home1" />
-              <Image className="w-full" src={Show5} alt="home1" />
-              <Image className="w-full" src={Show6} alt="home1" />
-              <Image className="w-full" src={Show7} alt="home1" />
-              <Image className="w-full" src={Show8} alt="home1" />
+              <Image className="w-full homepage22" src={Show1} alt="home1" />
+              <Image className="w-full homepage22" src={Show2} alt="home1" />
+              <Image className="w-full homepage22" src={Show3} alt="home1" />
+              <Image className="w-full homepage22" src={Show4} alt="home1" />
+              <Image className="w-full homepage22" src={Show5} alt="home1" />
+              <Image className="w-full homepage22" src={Show6} alt="home1" />
+              <Image className="w-full homepage22" src={Show7} alt="home1" />
+              <Image className="w-full homepage22" src={Show8} alt="home1" />
             </div>
 
             <button className="bg-black-300 hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white sm:w-72 md:w-auto w-full">
@@ -264,7 +281,7 @@ function HomePage() {
             </button>
           </div>
 
-          <div className="bg-[#00626F] text-white mt-5  mb-4 text-center">
+          <div className="bg-[#00626F] text-white mt-5  mb-4 text-center homepage22">
             <div className=" p-6 text-4xl font-bold ">******</div>
             <div className=" p-6 text-xl font-bold ">
               It is rare to find an agency that is both creative and analytical,
@@ -278,7 +295,7 @@ function HomePage() {
 
           <div className="mt-7  ">
             <div className="">
-              <div className="p-6 text-3xl font-bold text-center w-1/2 pr-5 ">
+              <div className="p-6 text-3xl font-bold text-center pr-5  homepage2">
                 Brands we’ve worked with, for, and built awesome memories...
               </div>
               <hr></hr>
@@ -287,7 +304,7 @@ function HomePage() {
                 sales, creative and marketing efforts through the years.
               </p>
             </div>
-            <div className="slider my-10 w-1/2">
+            <div className="slider my-10 ">
               <div className="slideTrack">
                 <div className="slide">
                   <Image src={aerix} className="imgPartner" />
@@ -324,7 +341,7 @@ function HomePage() {
           </div>
         </div>
       </div>
-    </>
+    </Layout>
   );
 }
 
