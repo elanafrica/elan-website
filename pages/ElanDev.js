@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "@/components/Layout";
-import Logoh from "../public/elan2.PNG";
 
-import Elandev1 from "../public/elandev1.PNG";
+//importing animate on scrol
+import Aos from "aos";
+import "aos/dist/aos.css";
+import Logoh from "../public/elandev3.jpg";
+
+import Elandev1 from "../public/elandev2.jpg";
 import Elandev2 from "../public/elandev2.PNG";
 import Elandev3 from "../public/elandev3.PNG";
 import Elandev4 from "../public/elandev4.PNG";
@@ -12,23 +16,25 @@ import Elandevcard1 from "../public/elandevcard1.PNG";
 import Elandevcard2 from "../public/elandevcard2.PNG";
 import Elandevcard3 from "../public/elandevcard3.PNG";
 import Elandevcard4 from "../public/elandevcard4.PNG";
-import Elangrowth5 from "../public/elangrowth5.PNG";
-import Elangrowth6 from "../public/elangrowth6.PNG";
-import Elangrowth7 from "../public/elangrowth7.PNG";
-import Elangrowth8 from "../public/elangrowth8.PNG";
-import Elangrowth9 from "../public/elangrowth9.PNG";
+
 import Image from "next/image";
 
 function ElanDev() {
+  useEffect(() => {
+    Aos.init({
+      duration: 1800,
+      offset: 0,
+    });
+  }, []);
   return (
     <Layout title="ElanDev">
-      <div className="p-4">
+      <div className="m-4">
         <div className="  ">
           <div className="relative">
             <Image className="w-full" src={Logoh} alt="Logo" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
               <div className="text-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                <p className="px-6 pb-6 text-xl font-bold">
+                <p className="px-6 pb-6 text-3xl font-bold">
                   Where we build the right tech ecosystem that helps your
                   business scale.
                 </p>
@@ -41,11 +47,11 @@ function ElanDev() {
           </div>
 
           <div className="mt-9 flex">
-            <div className=" w-1/2 pr-5 mt-7 ">
-              <h2 className="text-3xl font-bold text-center">
+            <div className="w-1/2 pr-5 mt-7 animate-fade-in-left">
+              <h2 className="text-3xl font-bold text-center animate-fade-in">
                 Choosing the right web development stack is not an easy feat.
               </h2>
-              <div className="mt-9">
+              <div className="mt-9 animate-fade-in">
                 <p>
                   Top companies and startups achieve their business needs by
                   working with trusted tech-stack developers to impact business
@@ -61,7 +67,7 @@ function ElanDev() {
                 </p>
               </div>
             </div>
-            <div className=" w-1/2 pr-5">
+            <div className="w-1/2 pr-5 animate-fade-in-right elandev2">
               <Image className="w-full" src={Elandev1} alt="elandev2" />
             </div>
           </div>
@@ -213,7 +219,7 @@ function ElanDev() {
             </div>
           </div>
           <div className="mt-9 mb-5">
-            <Image className="w-full" src={Elandev2} alt="elandev2" />
+            <Image className="w-full elandev2" src={Elandev2} alt="elandev2" />
           </div>
         </div>
 
@@ -270,32 +276,39 @@ function ElanDev() {
 
         <div className="mt-9 text-center">
           {" "}
-          <h2 className="text-4xl font-bold">Some Case Studies</h2>
+          <h2
+            className="text-4xl font-bold"
+            data-aos="fade-down"
+            data-aos-delay="400"
+            style={{ animation: "scaleIn 1s ease-in-out" }}
+          >
+            Some Case Studies
+          </h2>
         </div>
 
-        <div className="flex mt-9">
-          <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <Image className="w-full" src={Elandev3} alt="elandev3" />
+        <div className="flex mt-9 elandev4">
+          <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in-left">
+            <Image className="w-full " src={Elandev3} alt="elandev3" />
           </div>
-          <div className=" w-1/2 pr-5">
-            <h2 className=" text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
-              Aerix Group
+          <div className="w-1/2 pr-5 animate-fade-in-right">
+            <h2 className="text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
+              <span className="animate-flicker">Aerix Group</span>
             </h2>
             <div>
               <p className="mb-4">
                 We build teams with top software developers, designers, and
                 product managers from our global talent network, customized to
-                fit your business needs and business processes. Each person is
-                selected for subject matter expertise and their years of
-                experience working in managed teams.
+                fit your business needs and processes. Each person is selected
+                for their subject matter expertise and years of experience
+                working in managed teams.
               </p>
             </div>
           </div>
         </div>
 
-        <div className="flex mt-9">
-          <div className=" w-1/2 pr-5">
-            <h2 className=" text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
+        <div className="flex mt-9 elandev4">
+          <div className=" w-1/2 pr-5 animate-fade-in-right">
+            <h2 className="animate-flicker text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               Ruff 'N' Tumble
             </h2>
             <div>
@@ -313,12 +326,12 @@ function ElanDev() {
           </div>
         </div>
 
-        <div className="flex mt-9">
-          <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex mt-9 elandev4">
+          <div className=" animate-fade-in-right mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Image className="w-full" src={Elandev5} alt="elandev5" />
           </div>
-          <div className=" w-1/2 pr-5">
-            <h2 className=" text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
+          <div className=" w-1/2 pr-5 ">
+            <h2 className="animate-flicker text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               Xirea Apparel
             </h2>
             <div>
@@ -333,9 +346,9 @@ function ElanDev() {
           </div>
         </div>
 
-        <div className="flex mt-9">
-          <div className=" w-1/2 pr-5">
-            <h2 className=" text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
+        <div className="flex mt-9 elandev4">
+          <div className=" w-1/2 pr-5 ">
+            <h2 className="animate-flicker text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               Financial Planning with Kalu Aja
             </h2>
             <div>
@@ -348,14 +361,14 @@ function ElanDev() {
               </p>
             </div>
           </div>
-          <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mt-7 w-1/2 pr-5 animate-fade-in-right max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Image className="w-full" src={Elandev6} alt="elandev6" />
           </div>
         </div>
       </div>
 
-      <div className=" mt-7 flex justify-between mb-5">
-        <div className="w-1/2 pr-5 mt-7 mb-5">
+      <div className=" m-4 mt-7 flex justify-between mb-5">
+        <div className="w-1/2 pr-5 mt-7 mb-5 animate-flicker">
           <h2 className="text-4xl mb-5">
             Do you want to understand your tech needs or build great products?
           </h2>
