@@ -122,12 +122,16 @@ function HomePage() {
 
           <div className="mt-7 flex justify-between homepage1">
             <div className="mt-7 flex justify-between">
-              <div className="w-1/2 pr-5">
+              <div
+                className="w-1/2 pr-5"
+                style={{ animation: "fadeIn 1s ease-in-out" }}
+              >
                 <Image
                   className="w-full"
                   src={Home1}
                   alt="home1"
-                  style={{ animation: "fadeIn 1s ease-in-out" }}
+                  data-aos="fade-down"
+                  data-aos-delay="400"
                 />
               </div>
               <div className="w-1/2 pl-5">
