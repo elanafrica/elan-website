@@ -32,7 +32,7 @@ function ElanGrowth() {
             <Image className="w-full" src={Logoh} alt="Logo" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
               <div className="text-center absolute top-1/2 left-1/2 bottom-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                <p className="px-6 pb-6 text-xl font-bold">
+                <p className="px-6 pb-6 text-3xl font-bold">
                   We boast of a vast network of top talent across various
                   specialisations.
                 </p>
