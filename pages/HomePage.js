@@ -1,5 +1,4 @@
-import React from "react";
-import Layout from "@/components/Layout";
+import React, { useEffect } from "react";
 
 import Hero from "../public/elanpic1.jpg";
 import Home1 from "../public/elanpic2.PNG";
@@ -36,9 +35,15 @@ import Image from "next/image";
 import Link from "next/link";
 
 function HomePage() {
+  useEffect(() => {
+    Aos.init({
+      duration: 1800,
+      offset: 0,
+    });
+  }, []);
   return (
-    <Layout title="HomePage">
-      <div>
+    <>
+      <div className="m-4">
         <div className="  ">
           <div className="relative">
             <Image className="w-full bg-[#0b2546]" src={Hero} alt="hero" />
@@ -52,7 +57,7 @@ function HomePage() {
               <div className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start md: flex justify-center">
                 <Link href="/">
                   <button
-                    className="block px-6 py-2 text-center text-white bg-yellow-600 rounded-md"
+                    className="block px-6 py-2 text-center text-white bg-[#0b2546] rounded-md"
                     data-aos="fade-down"
                     data-aos-delay="400"
                   >
@@ -64,7 +69,7 @@ function HomePage() {
           </div>
 
           <div className="flex mt-7">
-            <div>
+            <div className="mt-7">
               <h2>
                 We foster business growth and sales for{" "}
                 <span className="text-green-300">
@@ -79,7 +84,7 @@ function HomePage() {
               <div className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start md: flex justify-center">
                 <Link href="/">
                   <button
-                    className="block px-6 py-2 text-center text-white bg-blue-600 rounded-md"
+                    className="block mt-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md"
                     data-aos="fade-down"
                     data-aos-delay="400"
                   >
@@ -89,7 +94,10 @@ function HomePage() {
               </div>
             </div>
 
-            <div className="">
+            <div
+              className="mt-7 "
+              style={{ animation: "fadeIn 1s ease-in-out" }}
+            >
               <div className="flex">
                 <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 text-xl font-bold mb-4 text-white">
                   Data-Driven Insights for Growth.
@@ -109,33 +117,57 @@ function HomePage() {
             </div>
           </div>
 
-          <div className="mt-7 flex justify-between">
-            <div className="w-1/2 pr-5">
-              <Image className="w-full" src={Home1} alt="home1" />
-            </div>
-            <div className="w-1/2 pl-5">
-              <div className="p-6 text-xl font-bold">
-                Africa is a hub href entrepreneurs of many disciplines, and with
-                the unique resilience that guides the African spirit. We believe
-                without a doubt that Africa is ready href birth the next greats.
+          <div className="mt-7 flex justify-between homepage1">
+            <div className="mt-7 flex justify-between">
+              <div className="w-1/2 pr-5">
+                <Image
+                  className="w-full"
+                  src={Home1}
+                  alt="home1"
+                  style={{ animation: "fadeIn 1s ease-in-out" }}
+                />
               </div>
-              <div>
-                Our techniques focus on measurable and a clear understanding of
-                the basics that matter href your business, whatever and wherever
-                you are.
+              <div className="w-1/2 pl-5">
+                <div
+                  className="p-6 text-xl font-bold"
+                  style={{ animation: "slideIn 1s ease-in-out" }}
+                >
+                  Africa is a hub href entrepreneurs of many disciplines, and
+                  with the unique resilience that guides the African spirit. We
+                  believe without a doubt that Africa is ready href birth the
+                  next greats.
+                </div>
+                <div style={{ animation: "slideIn 1s ease-in-out" }}>
+                  Our techniques focus on measurable and a clear understanding
+                  of the basics that matter href your business, whatever and
+                  wherever you are.
+                </div>
+                <div
+                  className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex  md: flex justify-center"
+                  style={{ animation: "scaleIn 1s ease-in-out" }}
+                >
+                  <Link href="/">
+                    <button
+                      className="block mt-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto"
+                      data-aos="fade-down"
+                      data-aos-delay="400"
+                    >
+                      Read More
+                    </button>
+                  </Link>
+                </div>
               </div>
-              <div>Read More</div>
             </div>
           </div>
 
-          <div className="mt-7">
-            <div className="flex justify-between">
-              <div className="text-4xl font-bold w-1/2 pr-5">
+          <div className="mt-9">
+            <div className="">
+              <div className="text-5xl font-bold mb-7 text-center mt-7">
                 Our Business Solutions
               </div>
-              <div className="flex mb-4 w-1/2 pr-5 ">
-                <div className="flex">
-                  <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4 ">
+              <div className="flex flex-wrap mb-4 mt-7">
+                <div className="flex flex-col w-1/2 mb-4 px-2">
+                  <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
                     <Image className="" src={Home2} alt="home1" />
                     <div className="text-xl">Elan Growth</div>
                     Elan Growth is your expert business strategy and execution
@@ -146,7 +178,7 @@ function HomePage() {
                       </Link>
                     </button>
                   </div>
-                  <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4 ">
+                  <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
                     <Image className="" src={Home3} alt="home1" />
                     <div className="text-xl">Elan Dev</div>
                     We would not just identify your tech needs but also
@@ -158,8 +190,8 @@ function HomePage() {
                     </button>
                   </div>
                 </div>
-                <div className="flex">
-                  <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4 ">
+                <div className="flex flex-col w-1/2 mb-4 px-2">
+                  <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
                     <Image className="" src={Home4} alt="home1" />
                     <div className="text-xl">Elan Training</div>
                     Keep your team updated with current industry trends.
@@ -169,29 +201,28 @@ function HomePage() {
                       </Link>
                     </button>
                   </div>
-                  <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4 ">
+                  <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
                     <Image className="" src={Home5} alt="home1" />
                     <div className="text-xl">Elan Studio</div>
-                    Where we get obsessed with your brands' shrefrytelling and
-                    our creativity is at its peak!
+                    Where we get obsessed with your brands' storytelling and our
+                    creativity is at its peak!
                     <button className="bg-black-300 hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white sm:w-72 md:w-auto w-full">
                       <Link href="/about" className="">
                         Shop Now
                       </Link>
                     </button>
                   </div>
-                </div>
-
-                <div className=" shadow-lg p-6 text-xl font-bold mb-4 ">
-                  <Image className="" src={Home5} alt="home1" />
-                  <div className="text-xl">Elan Accelera8</div>
-                  Our unique growth affiliate system. Growth and scale are
-                  integral href your company’s roadmap.
-                  <button className="bg-black-300 hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white sm:w-72 md:w-auto w-full">
-                    <Link href="/about" className="">
-                      Shop Now
-                    </Link>
-                  </button>
+                  <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
+                    <Image className="" src={Home5} alt="home1" />
+                    <div className="text-xl">Elan Accelera8</div>
+                    Our unique growth affiliate system. Growth and scale are
+                    integral to your company’s roadmap.
+                    <button className="bg-black-300 hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white sm:w-72 md:w-auto w-full">
+                      <Link href="/about" className="">
+                        Shop Now
+                      </Link>
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -293,7 +324,7 @@ function HomePage() {
           </div>
         </div>
       </div>
-    </Layout>
+    </>
   );
 }
 

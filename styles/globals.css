@@ -13,33 +13,77 @@
   }
 }
 
-@layer components{
-  @keyframes scroll{
-    0%{
+@layer components {
+  @keyframes scroll {
+    0% {
       transform: translateX(0);
     }
-    100%{
+    100% {
       transform: translateX(calc(-250px * 7));
     }
   }
-    .slider{
-      height: 100px;
-      width:auto;
-      margin: auto;
-      overflow: hidden;
-      position: relative;
-    }
-    .slideTrack{
-      animation: scroll 40s linear infinite;
-      display: flex;
-      width: calc(250px * 14);
-    }
-    .slide{
-      height: 200px;
-      width: 250px;
-    }
-    .imgPartner{
-      height: 100px;
-      width: 250px;
-    }
+  .slider {
+    height: 100px;
+    width: auto;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+  }
+  .slideTrack {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+  }
+  .slide {
+    height: 200px;
+    width: 250px;
+  }
+  .imgPartner {
+    height: 100px;
+    width: 250px;
+  }
+}
+
+/* animate the image with a fade-in effect */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.homepage1 img {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* animate the text with a slide-in effect */
+@keyframes slideIn {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.homepage1 > div {
+  animation: slideIn 1s ease-in-out;
+}
+
+/* animate the button with a scale-in effect */
+@keyframes scaleIn {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+button {
+  animation: scaleIn 1s ease-in-out;
 }
