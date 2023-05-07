@@ -68,7 +68,7 @@ function ElanStudio() {
               What we're quite good at ...
             </p>
           </div>
-          <div className="flex justify-between mt-7 mb-5 ">
+          <div className="m-4  mt-7 flex flex-wrap items-center justify-center ">
             <div className="mt-9 w-1/3 pr-5">
               <p className="text-2xl font-bold mb-5 ">
                 Video Content Production
@@ -96,7 +96,7 @@ function ElanStudio() {
               <Image className="w-full homepage22" src={Elanstud} alt="Logo" />
             </div>
           </div>
-          <div className="flex justify-between mt-7 mb-5 ">
+          <div className="m-4  mt-7 flex flex-wrap items-center justify-center">
             <div className="mt-9 w-1/3 pr-5">
               <p className="text-2xl font-bold mb-5 ">Photography Suite</p>
 
@@ -118,7 +118,7 @@ function ElanStudio() {
               <Image className="w-full homepage22" src={Elanstud2} alt="Logo" />
             </div>
           </div>
-          <div className="flex justify-between mt-7 mb-5 ">
+          <div className="m-4  mt-7 flex flex-wrap items-center justify-center ">
             <div className=" mt-9 w-1/3 pr-5">
               <Image className="w-full homepage22" src={Elanstud3} alt="Logo" />
             </div>
@@ -138,7 +138,7 @@ function ElanStudio() {
               </p>
             </div>
           </div>
-          <div className="flex justify-between mt-7 mb-5 ">
+          <div className="m-4  mt-7 flex flex-wrap items-center justify-center ">
             <div className="mt-9 w-1/3 pr-5">
               <p className="text-2xl font-bold mb-5 ">
                 Live & Corporate Events
@@ -170,7 +170,7 @@ function ElanStudio() {
         </div>
       </div>
 
-      <div className=" mt-7 flex justify-between mb-5">
+      <div className=" m-4  mt-7 flex flex-wrap items-center justify-center">
         <div className="w-1/2 pr-5 mt-7 mb-5">
           <h2 className="text-4xl mb-5">
             Let's get your brand to that level of creativity you've craved.

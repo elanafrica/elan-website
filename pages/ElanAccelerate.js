@@ -79,7 +79,7 @@ function ElanAccelerate() {
                 Who Can Take Part?
               </h2>
             </div>
-            <div className="flex g-2 mt-7">
+            <div className="m-4  mt-7 flex flex-wrap items-center justify-center g-2 mt-7">
               <div className="w-1/3 pr-5 text-center ">
                 <div className=" rounded-lg shadow-lg p-6 mb-4 ">
                   <Image className="w-72" src={ElanAcce1} alt="Logo" />
@@ -239,7 +239,7 @@ function ElanAccelerate() {
         </div>
       </div>
 
-      <div className="form-container">
+      <div className="m-4  mt-7 flex flex-wrap items-center justify-center">
         <div className="w-1/2 pr-5 mt-7 mb-5">
           <h2 className="text-4xl mb-5">Let's talk</h2>
           <p>about the hopes and dreams for your business! ​</p>

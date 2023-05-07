@@ -64,11 +64,27 @@ function Services() {
               </p>
             </div>
             <div className="container mx-auto mt-5 mb-5">
-              <div className="flex flex-wrap justify-center gap-4">
-                <Image className="w-32 homepage22" src={Home3} alt="home1" />
-                <Image className="w-32 homepage22" src={Home4} alt="home1" />
-                <Image className="w-32 homepage22" src={Home5} alt="home1" />
-                <Image className="w-32 homepage22" src={Home5} alt="home1" />
+              <div className="flex flex-wrap justify-center gap-4 mb-5">
+                <Image
+                  className="w-32 homepage22 mb-5"
+                  src={Home3}
+                  alt="home1"
+                />
+                <Image
+                  className="w-32 homepage22 mb-5"
+                  src={Home4}
+                  alt="home1"
+                />
+                <Image
+                  className="w-32 homepage22 mb-5"
+                  src={Home5}
+                  alt="home1"
+                />
+                <Image
+                  className="w-32 homepage22 mb-5"
+                  src={Home5}
+                  alt="home1"
+                />
               </div>
             </div>
           </div>
@@ -158,12 +174,12 @@ function Services() {
             </Link>
           </div>
           <div
-            className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex  md: flex justify-center"
+            className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex  md: flex justify-center mb-5"
             style={{ animation: "scaleIn 1s ease-in-out" }}
           >
             <Link href="/">
               <button
-                className="block mt-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto"
+                className="block mt-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto mb-5"
                 data-aos="fade-down"
                 data-aos-delay="400"
                 type="submit"

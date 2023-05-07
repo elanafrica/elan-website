@@ -47,7 +47,7 @@ function ElanDev() {
             </div>
           </div>
 
-          <div className="mt-9 flex">
+          <div className="mt-9 flex m-4  flex flex-wrap items-center justify-center">
             <div className="w-1/2 pr-5 mt-7 animate-fade-in-left">
               <h2 className="text-3xl font-bold text-center animate-fade-in">
                 Choosing the right web development stack is not an easy feat.
@@ -75,7 +75,9 @@ function ElanDev() {
 
           <div className="mt-9 mb-5 ">
             <div className="text-center">
-              <h2 className="text-[#0b2546] text-4xl mb-2">Our Process</h2>
+              <h2 className="text-[#0b2546] text-4xl mb-2 elandev2">
+                Our Process
+              </h2>
               <p>
                 We would leverage the{" "}
                 <span className="font-bold">Elan Clock Model</span> to identify
@@ -86,7 +88,7 @@ function ElanDev() {
               </p>
             </div>
 
-            <div className="flex mt-7 gap-6 text-white mb-5">
+            <div className="m-4  mt-9 flex  items-center justify-center gap-6 text-white mb-5">
               <div className="">
                 <div>
                   {" "}
@@ -220,7 +222,11 @@ function ElanDev() {
             </div>
           </div>
           <div className="mt-9 mb-5">
-            <Image className="w-full elandev2" src={Elandev2} alt="elandev2" />
+            <Image
+              className="w-full homepage22"
+              src={Elandev2}
+              alt="elandev2"
+            />
           </div>
         </div>
 
@@ -368,7 +374,7 @@ function ElanDev() {
         </div>
       </div>
 
-      <div className=" m-4 mt-7 flex justify-between mb-5">
+      <div className="m-4  mt-7 flex flex-wrap items-center justify-center">
         <div className="w-1/2 pr-5 mt-7 mb-5 animate-flicker">
           <h2 className="text-4xl mb-5">
             Do you want to understand your tech needs or build great products?
