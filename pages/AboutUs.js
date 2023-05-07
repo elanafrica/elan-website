@@ -43,7 +43,7 @@ function AboutUs() {
     });
   }, []);
   return (
-    <Layout title="AboutUS">
+    <Layout title="AboutUs">
       <div>
         <div className="bg-[rgb(7,39,78)] text-white">
           <section className="container items-center px-4 pb-12 mx-auto mt-20 lg:flex md:px-40">

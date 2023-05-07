@@ -3,7 +3,7 @@ import React from "react";
 
 function Blog() {
   return (
-    <Layout>
+    <Layout title="Blog">
       <div>
         <p>Blog</p>
       </div>
