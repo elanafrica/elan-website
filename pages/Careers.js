@@ -97,7 +97,7 @@ const Data = [
 
 function Careers() {
   return (
-    <Layout>
+    <Layout title="Careers">
       <div>
         {/* Hero backgroundImage Section */}
         <div className="relative bg-gradient-to-tr from-blue-950 to-sky-700  lg:h-96 w-full bg-cover">

@@ -71,37 +71,80 @@ function Navbar() {
             Home
           </Link>
           <Link
-            href="/about"
+            href="/AboutUs"
             className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
           >
             About Us
           </Link>
+          <div className="relative">
+            <button
+              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              onClick={() => setIsOpen(!isOpen)}
+            >
+              <Link
+                href="/Services"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              >
+                Services
+              </Link>
+            </button>
+            <div
+              className={`${
+                isOpen ? "block" : "hidden"
+              } absolute z-50 bg-white p-4 mt-1 rounded-md shadow-lg`}
+            >
+              <Link
+                href="/ElanAccelerate"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              >
+                Elan Accelerate
+              </Link>
+              <Link
+                href="/ElanDev"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              >
+                Elan Dev
+              </Link>
+              <Link
+                href="/ElanGrowth"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              >
+                Elan Growth
+              </Link>
+              <Link
+                href="/ElanStudio"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              >
+                Elan Studio
+              </Link>
+              <Link
+                href="/ElanTraining"
+                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              >
+                Elan Training
+              </Link>
+            </div>
+          </div>
           <Link
-            href="/services"
-            className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-          >
-            Services
-          </Link>
-          <Link
-            href="/portfolio"
+            href="/OurWork"
             className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
           >
             Our Work
           </Link>
           <Link
-            href="/blog"
+            href="/Blog"
             className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
           >
             Blog
           </Link>
           <Link
-            href="/testimonials"
+            href="/Testimonials"
             className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
           >
             Testimonials
           </Link>
           <Link
-            href="/contact"
+            href="/ContactUs"
             className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
           >
             Contact US
