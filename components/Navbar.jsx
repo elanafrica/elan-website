@@ -126,7 +126,7 @@ function Navbar() {
             </div>
           </div>
           <Link
-            href="/Portfolio"
+            href="/OurWork"
             className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
           >
             Our Work

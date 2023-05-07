@@ -120,7 +120,7 @@ function HomePage() {
             </div>
           </div>
 
-          <div className="mt-7 flex justify-between homepage1">
+          <div className="m-4  mt-7 flex flex-wrap items-center justify-center homepage1">
             <div className="mt-7 flex justify-between">
               <div
                 className="w-1/2 pr-5"

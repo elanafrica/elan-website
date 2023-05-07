@@ -104,7 +104,7 @@ function ElanGrowth() {
         </div>
 
         <div
-          className="mt-9 flex"
+          className="mt-9 m-4  flex flex-wrap items-center justify-center"
           style={{ animation: "fadeIn 1s ease-in-out" }}
         >
           <div
@@ -141,7 +141,7 @@ function ElanGrowth() {
           </div>
         </div>
 
-        <div className="flex mt-9 ">
+        <div className="flex mt-9 m-4  flex flex-wrap items-center justify-center ">
           <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Image
               className="w-full homepage22"
@@ -193,7 +193,7 @@ function ElanGrowth() {
           </div>
         </div>
 
-        <div className="mt-9 flex justify-between">
+        <div className="mt-9 m-4   flex flex-wrap items-center justify-center">
           <div className="w-1/2 pr-5">
             <h2 className="text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               Business Growth Consultancy.
@@ -260,7 +260,7 @@ function ElanGrowth() {
           </div>
         </div>
 
-        <div className="flex mt-9">
+        <div className="flex mt-9 m-4  flex-wrap items-center justify-center">
           <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Image
               className="w-full homepage22"
@@ -298,7 +298,7 @@ function ElanGrowth() {
           </div>
         </div>
 
-        <div className="flex mt-9">
+        <div className="flex mt-9 m-4 flex-wrap items-center justify-center">
           <div className=" w-1/2 pr-5">
             <h2 className=" text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               Brand & Creative Development.
@@ -339,7 +339,7 @@ function ElanGrowth() {
           </div>
         </div>
 
-        <div className="flex mt-9">
+        <div className="flex mt-9 m-4  flex-wrap items-center justify-center">
           <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Image
               className="w-full homepage22"
@@ -381,7 +381,7 @@ function ElanGrowth() {
           </div>
         </div>
 
-        <div className="flex mt-9">
+        <div className="flex mt-9 m-4  flex-wrap items-center justify-center">
           <div className=" w-1/2 pr-5">
             <h2 className="text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
               On-Demand CMO, CSO & Growth Managers.
@@ -412,7 +412,7 @@ function ElanGrowth() {
           </div>
         </div>
 
-        <div className="flex mt-9">
+        <div className="flex mt-9 m-4 flex-wrap items-center justify-center">
           <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <Image className="w-full" src={Elangrowth9} alt="elangrowth9" />
           </div>
@@ -473,7 +473,7 @@ function ElanGrowth() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-3xl">SOME KEYWORDS TO REMEMBER US BY ...</h1>
         </div>
-        <div className="mt-7 flex">
+        <div className="mt-7 flex m-4   flex-wrap items-center justify-center">
           <div className="mt-7 w-1/2 pr-5">
             <p>
               Yes, we are that deep and understand what the basics should be and
@@ -529,7 +529,7 @@ function ElanGrowth() {
         </div>
       </div>
 
-      <div className="form-container">
+      <div className="m-4  mt-7 flex flex-wrap items-center justify-center">
         <div className="w-1/2 pr-5 mt-7 mb-5">
           <h2 className="text-4xl mb-5">Let's talk</h2>
           <p>about the hopes and dreams for your business! ​</p>

@@ -172,7 +172,7 @@ function ElanTraining() {
           <h2 className="text-3xl font-bold">Our Training Modules</h2>
         </div>
 
-        <div className="flex mt-9 animate-fade-in-right">
+        <div className="flex m-4  mt-9 flex-wrap items-center justify-center mt-9 animate-fade-in-right">
           <div className="w-1/2 pr-5">
             <h2 className="text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4 animate-bounce">
               Sales & Marketing
@@ -200,7 +200,7 @@ function ElanTraining() {
           </div>
         </div>
 
-        <div className="flex mt-9 animate-fade-in-left">
+        <div className="flex mt-9 m-4  mt-7  flex-wrap items-center justify-center animate-fade-in-left">
           <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in-right">
             <Image
               className="w-full animate-pulse"
@@ -244,7 +244,7 @@ function ElanTraining() {
           </div>
         </div>
 
-        <div className="flex mt-9">
+        <div className="flex mt-9 m-4  mt-7 flex flex-wrap items-center justify-center">
           <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in-left">
             <Image
               className="w-full animate-fade-in-bottom"
@@ -282,7 +282,7 @@ function ElanTraining() {
         </div>
       </div>
 
-      <div class="flex justify-between mt-7 m-4 mb-5">
+      <div class="flex m-4  mt-9  flex-wrap items-center justify-center m-4 mb-5">
         <div class="w-1/2 pr-5 mt-7 mb-5">
           <h2 class="text-2xl mb-5">
             Leverage our pool of top experts to bridge the knowledge gaps across
