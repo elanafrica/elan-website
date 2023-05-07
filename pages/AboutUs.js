@@ -77,12 +77,13 @@ function AboutUs() {
               </div>
             </div>
             <div>
-              <img
+              <Image
                 src="https://cdn.pixabay.com/photo/2022/09/29/17/15/halloween-7487706__340.jpg"
                 className="w-full mx-auto mt-6 sm:w-10/12 lg:w-full"
                 data-aos="fade-down"
                 data-aos-delay="400"
                 layout="fill"
+                alt="hero"
               />
             </div>
           </section>
@@ -113,12 +114,13 @@ function AboutUs() {
             </p>
           </div>
           <div>
-            <img
+            <Image
               src="https://cdn.pixabay.com/photo/2022/09/29/17/15/halloween-7487706__340.jpg"
               className="w-full mx-auto mt-6 sm:w-10/12 lg:w-25"
               data-aos="fade-down"
               data-aos-delay="400"
               layout="fill"
+              alt="our business image"
             />
           </div>
         </div>
@@ -408,6 +410,7 @@ function AboutUs() {
                     className="lg:w-20 rounded-full"
                     data-aos="fade-down"
                     data-aos-delay="400"
+                    alt="Afam Anyika"
                   />
                   {/* <BsPersonCircle /> */}
                 </div>
@@ -437,6 +440,7 @@ function AboutUs() {
                     className="lg:w-20 rounded-full"
                     data-aos="fade-down"
                     data-aos-delay="400"
+                    alt="Kelechi Onwumere"
                   />
                   {/* <BsPersonCircle /> */}
                 </div>
@@ -463,34 +467,34 @@ function AboutUs() {
         <div className="slider my-10">
           <div className="slideTrack">
             <div className="slide">
-              <Image src={aerix} className="imgPartner" />
+              <Image src={aerix} className="imgPartner" alt="aerix" />
             </div>
             <div className="slide">
-              <Image src={max} className="imgPartner" />
+              <Image src={max} className="imgPartner" alt="max"/>
             </div>
             <div className="slide">
-              <Image src={gomarket} className="imgPartner" />
+              <Image src={gomarket} className="imgPartner" alt="gomarket"/>
             </div>
             <div className="slide">
-              <Image src={jumia} className="imgPartner" />
+              <Image src={jumia} className="imgPartner" alt="jumia"/>
             </div>
             <div className="slide">
-              <Image src={microsoft} className="imgPartner" />
+              <Image src={microsoft} className="imgPartner" alt="microsoft"/>
             </div>
             <div className="slide">
-              <Image src={fazsion} className="imgPartner" />
+              <Image src={fazsion} className="imgPartner" alt="faszion"/>
             </div>
             <div className="slide">
-              <Image src={kobo} className="imgPartner" />
+              <Image src={kobo} className="imgPartner" alt="kobo"/>
             </div>
             <div className="slide">
-              <Image src={mrprice} className="imgPartner" />
+              <Image src={mrprice} className="imgPartner" alt="mrprice"/>
             </div>
             <div className="slide">
-              <Image src={playns} className="imgPartner" />
+              <Image src={playns} className="imgPartner" alt="playns"/>
             </div>
             <div className="slide">
-              <Image src={konga} className="imgPartner" />
+              <Image src={konga} className="imgPartner" alt="konga"/>
             </div>
           </div>
         </div>
