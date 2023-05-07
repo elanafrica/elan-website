@@ -71,37 +71,37 @@ function Navbar() {
             Home
           </Link>
           <Link
-            href="/about"
+            href="/AboutUs"
             className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
           >
             About Us
           </Link>
           <Link
-            href="/services"
+            href="/Services"
             className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
           >
             Services
           </Link>
           <Link
-            href="/portfolio"
+            href="/Portfolio"
             className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
           >
             Our Work
           </Link>
           <Link
-            href="/blog"
+            href="/Blog"
             className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
           >
             Blog
           </Link>
           <Link
-            href="/testimonials"
+            href="/Testimonials"
             className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
           >
             Testimonials
           </Link>
           <Link
-            href="/contact"
+            href="/Contact"
             className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
           >
             Contact US
