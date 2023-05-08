@@ -1,4 +1,7 @@
 import Image from "next/image";
+import { AiOutlineEye } from "react-icons/ai";
+import { TfiComments } from "react-icons/tfi";
+import { FcLike } from "react-icons/fc";
 
 function BlogCard({ post }) {
   return (
@@ -7,23 +10,33 @@ function BlogCard({ post }) {
       <h2 className="text-[16px] font-semibold text-black group-hover:text-white">
         {post.title}
       </h2>
-      <p className="flex items-center text-[#ccc} gap-1 group-hover:text-white">
-        By {post.name} on {post.date}
+      <p className="text-[13px]">
+        <span>By {post.name} </span>
       </p>
+      <p className="text-[13px]">{post.date}</p>
       <p className="text-[13px] text-[#959595] pt-[20px] border-t-[2px] mt-[20px] group-hover:text-white">
         {post.description}
       </p>
-
-      <p>Views: {post.views}</p>
-      <p className="text-[13px] text-[#959595] pt-[20px] border-t-[2px] mt-[20px] group-hover:text-white">
-        Comments:
-      </p>
-      {post.comments.map((comment) => (
+      <div className="flex mt-9  flex-wrap items-center justify-center items-center text-[13px] text-[#959595] pt-[20px] border-t-[2px] mt-[20px]">
+        <p className="flex items-center gap-2">
+          <AiOutlineEye />
+          <span>{post.views}</span>
+        </p>
+        <p className="flex items-center gap-2">
+          <TfiComments />
+          <span>{post.comments.length}</span>
+        </p>
+        <p className="flex items-center gap-2">
+          <FcLike />
+          <span>{post.likes}</span>
+        </p>
+      </div>
+      {/* {post.comments.map((comment) => (
         <div key={comment.email}>
           <p>{comment.name} said:</p>
           <p>{comment.comment}</p>
         </div>
-      ))}
+      ))} */}
     </div>
   );
 }
