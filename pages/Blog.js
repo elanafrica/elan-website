@@ -32,7 +32,7 @@ function Blog() {
       title: "How to maximize your marketing budget",
       description:
         "Marketing plays a crucial role in the growth and success of any business. However, with limited..",
-      date: "2023-05-08",
+      date: "May 4",
       views: 152,
       comments: [
         {
@@ -55,7 +55,7 @@ function Blog() {
       title: "11 marketing strategies to attract and retain...",
       description:
         "Increasing revenue is principal to the growth of any business. It's not enough to have a viable product, build an excellent team or even receive the right investment for your business–marketing allows ",
-      date: "2023-05-08",
+      date: "Apr 26",
       views: 152,
       comments: [
         {
@@ -74,11 +74,11 @@ function Blog() {
       image: ElanBlog2,
     },
     {
-      name: "Ruth Torty",
-      title: "11 marketing strategies to attract and retain...",
+      name: "Amabel Ukoko",
+      title: "Is Email Marketing Dead?",
       description:
-        "Increasing revenue is principal to the growth of any business. It's not enough to have a viable product, build an excellent team or even receive the right investment for your business–marketing allows ",
-      date: "2023-05-08",
+        "Email marketing has been around for decades and continues to be one of the most cost-effective and a...",
+      date: "Apr 19",
       views: 152,
       comments: [
         {
@@ -98,10 +98,10 @@ function Blog() {
     },
     {
       name: "Ruth Torty",
-      title: "11 marketing strategies to attract and retain...",
+      title: "A Guide to How SMEs Can Ideentify Their Target Audience",
       description:
-        "Increasing revenue is principal to the growth of any business. It's not enough to have a viable product, build an excellent team or even receive the right investment for your business–marketing allows ",
-      date: "2023-05-08",
+        "Small and medium-sized enterprises are currently on the rise. Aside from the crucial role...",
+      date: "Apr 12",
       views: 152,
       comments: [
         {
@@ -120,11 +120,11 @@ function Blog() {
       image: ElanBlog4,
     },
     {
-      name: "Ruth Torty",
-      title: "11 marketing strategies to attract and retain...",
+      name: "Amabel Ukoko",
+      title: "Invest Wisely: 5 Things to Know Before You Start",
       description:
-        "Increasing revenue is principal to the growth of any business. It's not enough to have a viable product, build an excellent team or even receive the right investment for your business–marketing allows ",
-      date: "2023-05-08",
+        "Invest Wisely: 5 Things to Know Before You Start Choosing what to invest in can be both daunting and",
+      date: "Apr 3",
       views: 152,
       comments: [
         {
@@ -144,10 +144,10 @@ function Blog() {
     },
     {
       name: "Ruth Torty",
-      title: "11 marketing strategies to attract and retain...",
+      title: "5 Free Courses Every Founder & Entrepreneur Should...",
       description:
-        "Increasing revenue is principal to the growth of any business. It's not enough to have a viable product, build an excellent team or even receive the right investment for your business–marketing allows ",
-      date: "2023-05-08",
+        "To build a successful business in Africa, here are 5 free courses we recommend every founder and...",
+      date: "Feb 24",
       views: 152,
       comments: [
         {
@@ -166,11 +166,11 @@ function Blog() {
       image: ElanBlog6,
     },
     {
-      name: "Ruth Torty",
-      title: "11 marketing strategies to attract and retain...",
+      name: "Ifeoma Okwy-Ejezie",
+      title: "B2B Growth Hacking Strategies",
       description:
-        "Increasing revenue is principal to the growth of any business. It's not enough to have a viable product, build an excellent team or even receive the right investment for your business–marketing allows ",
-      date: "2023-05-08",
+        "The way to hack growth in B2B involves understanding that a business’s main competition is the ",
+      date: "Nov 10, 2022",
       views: 152,
       comments: [
         {
@@ -190,10 +190,10 @@ function Blog() {
     },
     {
       name: "Ruth Torty",
-      title: "11 marketing strategies to attract and retain...",
+      title: "Mental Health in The Workplace: How To Build Safe Spaces Fo...",
       description:
-        "Increasing revenue is principal to the growth of any business. It's not enough to have a viable product, build an excellent team or even receive the right investment for your business–marketing allows ",
-      date: "2023-05-08",
+        "Interestingly, a survey carried out by WellNewMe shows that 4 in 5 employees are at risk of mental",
+      date: "Oct 26, 2022",
       views: 152,
       comments: [
         {
@@ -213,10 +213,10 @@ function Blog() {
     },
     {
       name: "Ruth Torty",
-      title: "11 marketing strategies to attract and retain...",
+      title: "11 Tips For Managing Remote Teams In Africa..",
       description:
-        "Increasing revenue is principal to the growth of any business. It's not enough to have a viable product, build an excellent team or even receive the right investment for your business–marketing allows ",
-      date: "2023-05-08",
+        "As digitalization continues to dominate and become the norm in this age, work systems are also..",
+      date: "Aug 12, 2022",
       views: 152,
       comments: [
         {
@@ -235,11 +235,11 @@ function Blog() {
       image: ElanBlog9,
     },
     {
-      name: "Ruth Torty",
-      title: "11 marketing strategies to attract and retain...",
+      name: "Ifeoma Okwy-Ejezie",
+      title: "Why your business needs proper growth marketing",
       description:
-        "Increasing revenue is principal to the growth of any business. It's not enough to have a viable product, build an excellent team or even receive the right investment for your business–marketing allows ",
-      date: "2023-05-08",
+        "According to the European Union (EU), SMEs are micro, small, and medium-sized enterprises which...",
+      date: "Aug 10,2022",
       views: 152,
       comments: [
         {
@@ -258,11 +258,12 @@ function Blog() {
       image: ElanBlog10,
     },
     {
-      name: "Ruth Torty",
-      title: "11 marketing strategies to attract and retain...",
+      name: "Team Elan",
+      title:
+        " All the talk about the perfect business plan for business growth!",
       description:
-        "Increasing revenue is principal to the growth of any business. It's not enough to have a viable product, build an excellent team or even receive the right investment for your business–marketing allows ",
-      date: "2023-05-08",
+        "The importance we place on your business plan and getting it right should let you see will let you..",
+      date: "May 30, 2022",
       views: 152,
       comments: [
         {
@@ -281,11 +282,11 @@ function Blog() {
       image: ElanBlog11,
     },
     {
-      name: "Ruth Torty",
-      title: "11 marketing strategies to attract and retain...",
+      name: "Afam Anyika",
+      title: "Customer experience that enhances direct marketing and...",
       description:
-        "Increasing revenue is principal to the growth of any business. It's not enough to have a viable product, build an excellent team or even receive the right investment for your business–marketing allows ",
-      date: "2023-05-08",
+        "Through the years, business giants have said that great customer service helped their businesses to",
+      date: "May 26, 2022",
       views: 152,
       comments: [
         {
