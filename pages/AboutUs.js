@@ -407,6 +407,7 @@ function AboutUs() {
                 <div className="lg:w-20 h-50 mx-auto bg-[rgb(7,39,78)] p-0.5 rounded-full">
                   <Image
                     src={founder}
+                    alt="founder"
                     className="lg:w-20 rounded-full"
                     data-aos="fade-down"
                     data-aos-delay="400"
@@ -437,10 +438,10 @@ function AboutUs() {
                 <div className="lg:w-20 h-50 mx-auto bg-[rgb(7,39,78)] p-0.5 rounded-full">
                   <Image
                     src={founder}
+                    alt="founder"
                     className="lg:w-20 rounded-full"
                     data-aos="fade-down"
                     data-aos-delay="400"
-                    alt="Kelechi Onwumere"
                   />
                   {/* <BsPersonCircle /> */}
                 </div>
@@ -467,13 +468,13 @@ function AboutUs() {
         <div className="slider my-10">
           <div className="slideTrack">
             <div className="slide">
-              <Image src={aerix} className="imgPartner" alt="aerix" />
+              <Image src={aerix} className="imgPartner" alt="aerix"/>
             </div>
             <div className="slide">
               <Image src={max} className="imgPartner" alt="max"/>
             </div>
             <div className="slide">
-              <Image src={gomarket} className="imgPartner" alt="gomarket"/>
+              <Image src={gomarket} className="imgPartner" alt="gomarket" />
             </div>
             <div className="slide">
               <Image src={jumia} className="imgPartner" alt="jumia"/>
@@ -482,7 +483,7 @@ function AboutUs() {
               <Image src={microsoft} className="imgPartner" alt="microsoft"/>
             </div>
             <div className="slide">
-              <Image src={fazsion} className="imgPartner" alt="faszion"/>
+              <Image src={fazsion} className="imgPartner" alt="fazsion"/>
             </div>
             <div className="slide">
               <Image src={kobo} className="imgPartner" alt="kobo"/>
