@@ -405,6 +405,7 @@ function AboutUs() {
                 <div className="lg:w-20 h-50 mx-auto bg-[rgb(7,39,78)] p-0.5 rounded-full">
                   <Image
                     src={founder}
+                    alt="founder"
                     className="lg:w-20 rounded-full"
                     data-aos="fade-down"
                     data-aos-delay="400"
@@ -434,6 +435,7 @@ function AboutUs() {
                 <div className="lg:w-20 h-50 mx-auto bg-[rgb(7,39,78)] p-0.5 rounded-full">
                   <Image
                     src={founder}
+                    alt="founder"
                     className="lg:w-20 rounded-full"
                     data-aos="fade-down"
                     data-aos-delay="400"
@@ -463,34 +465,34 @@ function AboutUs() {
         <div className="slider my-10">
           <div className="slideTrack">
             <div className="slide">
-              <Image src={aerix} className="imgPartner" />
+              <Image src={aerix} className="Partner" />
             </div>
             <div className="slide">
-              <Image src={max} className="imgPartner" />
+              <Image src={max} className="Partner" />
             </div>
             <div className="slide">
-              <Image src={gomarket} className="imgPartner" />
+              <Image src={gomarket} className="Partner" />
             </div>
             <div className="slide">
-              <Image src={jumia} className="imgPartner" />
+              <Image src={jumia} className="Partner" />
             </div>
             <div className="slide">
-              <Image src={microsoft} className="imgPartner" />
+              <Image src={microsoft} className="Partner" />
             </div>
             <div className="slide">
-              <Image src={fazsion} className="imgPartner" />
+              <Image src={fazsion} className="Partner" />
             </div>
             <div className="slide">
-              <Image src={kobo} className="imgPartner" />
+              <Image src={kobo} className="Partner" />
             </div>
             <div className="slide">
-              <Image src={mrprice} className="imgPartner" />
+              <Image src={mrprice} className="Partner" />
             </div>
             <div className="slide">
-              <Image src={playns} className="imgPartner" />
+              <Image src={playns} className="Partner" />
             </div>
             <div className="slide">
-              <Image src={konga} className="imgPartner" />
+              <Image src={konga} className="Partner" />
             </div>
           </div>
         </div>
