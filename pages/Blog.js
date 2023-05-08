@@ -28,6 +28,7 @@ function Blog() {
   };
   const posts = [
     {
+      id: 1,
       name: "Amabel Ukoko",
       title: "How to maximize your marketing budget",
       description:
@@ -51,6 +52,7 @@ function Blog() {
       image: ElanBlog1,
     },
     {
+      id: 2,
       name: "Ruth Torty",
       title: "11 marketing strategies to attract and retain...",
       description:
@@ -74,6 +76,7 @@ function Blog() {
       image: ElanBlog2,
     },
     {
+      id: 3,
       name: "Amabel Ukoko",
       title: "Is Email Marketing Dead?",
       description:
@@ -97,6 +100,7 @@ function Blog() {
       image: ElanBlog3,
     },
     {
+      id: 4,
       name: "Ruth Torty",
       title: "A Guide to How SMEs Can Ideentify Their Target Audience",
       description:
@@ -120,6 +124,7 @@ function Blog() {
       image: ElanBlog4,
     },
     {
+      id: 5,
       name: "Amabel Ukoko",
       title: "Invest Wisely: 5 Things to Know Before You Start",
       description:
@@ -143,6 +148,7 @@ function Blog() {
       image: ElanBlog5,
     },
     {
+      id: 6,
       name: "Ruth Torty",
       title: "5 Free Courses Every Founder & Entrepreneur Should...",
       description:
@@ -166,6 +172,7 @@ function Blog() {
       image: ElanBlog6,
     },
     {
+      id: 7,
       name: "Ifeoma Okwy-Ejezie",
       title: "B2B Growth Hacking Strategies",
       description:
@@ -189,6 +196,7 @@ function Blog() {
       image: ElanBlog7,
     },
     {
+      id: 8,
       name: "Ruth Torty",
       title: "Mental Health in The Workplace: How To Build Safe Spaces Fo...",
       description:
@@ -212,6 +220,7 @@ function Blog() {
       image: ElanBlog8,
     },
     {
+      id: 9,
       name: "Ruth Torty",
       title: "11 Tips For Managing Remote Teams In Africa..",
       description:
@@ -235,6 +244,7 @@ function Blog() {
       image: ElanBlog9,
     },
     {
+      id: 10,
       name: "Ifeoma Okwy-Ejezie",
       title: "Why your business needs proper growth marketing",
       description:
@@ -258,6 +268,7 @@ function Blog() {
       image: ElanBlog10,
     },
     {
+      id: 11,
       name: "Team Elan",
       title:
         " All the talk about the perfect business plan for business growth!",
@@ -282,6 +293,7 @@ function Blog() {
       image: ElanBlog11,
     },
     {
+      id: 12,
       name: "Afam Anyika",
       title: "Customer experience that enhances direct marketing and...",
       description:
@@ -402,9 +414,8 @@ function Blog() {
 
         <div className="mt-9">
           <div className="grid grid-cols-3 gap-8">
-            {posts.map((post) => (
-              <Link href="/Blog">
-                {" "}
+            {posts.map((post, id) => (
+              <Link href="/Blog" key={id}>
                 <BlogCard key={post.title} post={post} />
               </Link>
             ))}
