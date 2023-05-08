@@ -129,7 +129,7 @@ function HomePage() {
                 <Image
                   className="w-full"
                   src={Home1}
-                  alt="home1"
+                  alt=""
                   data-aos="fade-down"
                   data-aos-delay="400"
                 />
@@ -183,7 +183,7 @@ function HomePage() {
                   data-aos-delay="400"
                 >
                   <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
-                    <Image className="" src={Home2} alt="home1" />
+                    <Image className="" src={Home2} alt="" />
                     <div className="text-xl">Elan Growth</div>
                     Elan Growth is your expert business strategy and execution
                     partner.
@@ -194,7 +194,7 @@ function HomePage() {
                     </button>
                   </div>
                   <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
-                    <Image className="" src={Home3} alt="home1" />
+                    <Image className="" src={Home3} alt="" />
                     <div className="text-xl">Elan Dev</div>
                     We would not just identify your tech needs but also
                     implement them.
@@ -211,7 +211,7 @@ function HomePage() {
                   data-aos-delay="400"
                 >
                   <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
-                    <Image className="" src={Home4} alt="home1" />
+                    <Image className="" src={Home4} alt="" />
                     <div className="text-xl">Elan Training</div>
                     Keep your team updated with current industry trends.
                     <button className="bg-black-300 hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white sm:w-72 md:w-auto w-full">
@@ -221,7 +221,7 @@ function HomePage() {
                     </button>
                   </div>
                   <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
-                    <Image className="" src={Home5} alt="home1" />
+                    <Image className="" src={Home5} alt="" />
                     <div className="text-xl">Elan Studio</div>
                     Where we get obsessed with your brands' storytelling and our
                     creativity is at its peak!
@@ -232,7 +232,7 @@ function HomePage() {
                     </button>
                   </div>
                   <div className="rounded-lg shadow-lg p-6 text-xl font-bold mb-4">
-                    <Image className="" src={Home5} alt="home1" />
+                    <Image className="" src={Home5} alt="" />
                     <div className="text-xl">Elan Accelera8</div>
                     Our unique growth affiliate system. Growth and scale are
                     integral to your company’s roadmap.
@@ -268,14 +268,14 @@ function HomePage() {
               What we get up to!
             </div>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pr-5">
-              <Image className="w-full homepage22" src={Show1} alt="home1" />
-              <Image className="w-full homepage22" src={Show2} alt="home1" />
-              <Image className="w-full homepage22" src={Show3} alt="home1" />
-              <Image className="w-full homepage22" src={Show4} alt="home1" />
-              <Image className="w-full homepage22" src={Show5} alt="home1" />
-              <Image className="w-full homepage22" src={Show6} alt="home1" />
-              <Image className="w-full homepage22" src={Show7} alt="home1" />
-              <Image className="w-full homepage22" src={Show8} alt="home1" />
+              <Image className="w-full homepage22" src={Show1} alt="" />
+              <Image className="w-full homepage22" src={Show2} alt="" />
+              <Image className="w-full homepage22" src={Show3} alt="" />
+              <Image className="w-full homepage22" src={Show4} alt="" />
+              <Image className="w-full homepage22" src={Show5} alt="" />
+              <Image className="w-full homepage22" src={Show6} alt="" />
+              <Image className="w-full homepage22" src={Show7} alt="" />
+              <Image className="w-full homepage22" src={Show8} alt="" />
             </div>
 
             <button className="bg-black-300 hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white sm:w-72 md:w-auto w-full">
@@ -311,34 +311,34 @@ function HomePage() {
             <div className="slider my-10 ">
               <div className="slideTrack">
                 <div className="slide">
-                  <Image src={aerix} className="imgPartner" />
+                  <Image src={aerix} alt="" className="imgPartner" />
                 </div>
                 <div className="slide">
-                  <Image src={max} className="imgPartner" />
+                  <Image src={max} alt="" className="imgPartner" />
                 </div>
                 <div className="slide">
-                  <Image src={gomarket} className="imgPartner" />
+                  <Image src={gomarket} alt="" className="imgPartner" />
                 </div>
                 <div className="slide">
-                  <Image src={jumia} className="imgPartner" />
+                  <Image src={jumia} alt="" className="imgPartner" />
                 </div>
                 <div className="slide">
-                  <Image src={microsoft} className="imgPartner" />
+                  <Image src={microsoft} alt="" className="imgPartner" />
                 </div>
                 <div className="slide">
-                  <Image src={fazsion} className="imgPartner" />
+                  <Image src={fazsion} alt="" className="imgPartner" />
                 </div>
                 <div className="slide">
-                  <Image src={kobo} className="imgPartner" />
+                  <Image src={kobo} alt="" className="imgPartner" />
                 </div>
                 <div className="slide">
-                  <Image src={mrprice} className="imgPartner" />
+                  <Image src={mrprice} alt="" className="imgPartner" />
                 </div>
                 <div className="slide">
-                  <Image src={playns} className="imgPartner" />
+                  <Image src={playns} alt="" className="imgPartner" />
                 </div>
                 <div className="slide">
-                  <Image src={konga} className="imgPartner" />
+                  <Image src={konga} alt="" className="imgPartner" />
                 </div>
               </div>
             </div>
