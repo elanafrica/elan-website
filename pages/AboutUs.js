@@ -411,7 +411,6 @@ function AboutUs() {
                     className="lg:w-20 rounded-full"
                     data-aos="fade-down"
                     data-aos-delay="400"
-                    alt="Afam Anyika"
                   />
                   {/* <BsPersonCircle /> */}
                 </div>
