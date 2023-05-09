@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 //importing images
-import aboutHero from "../public/aboutHero.PNG"
+import aboutHero from "../public/assets/aboutHero.png"
 import founder from "../public/assets/founder.png";
 import jumia from "../public/assets/jumia.png";
 import aerix from "../public/assets/aerix.png";
@@ -50,7 +50,7 @@ function AboutUs() {
           <section className="container items-center px-4 pb-12 mt-20 lg:flex md:px-40">
             <div className="flex-1 space-y-4 sm:text-center lg:text-left">
               <h1
-                className="text-4xl font-bold text-yellow-500 md: flex justify-center lg:justify-start"
+                className="text-4xl font-bold text-teal-400 md: flex justify-center lg:justify-start"
                 data-aos="fade-down"
                 data-aos-delay="400"
               >
@@ -68,7 +68,7 @@ function AboutUs() {
               <div className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start md: flex justify-center">
                 <Link href="/">
                   <button
-                    className="block px-6 py-2 text-center text-white bg-yellow-600 rounded-md"
+                    className="block px-6 py-2 text-center text-white bg-teal-500 rounded-md"
                     data-aos="fade-down"
                     data-aos-delay="400"
                   >
