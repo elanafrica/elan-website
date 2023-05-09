@@ -4,13 +4,9 @@ import Layout from "@/components/Layout";
 import Image from "next/image";
 import Link from "next/link";
 
-import founder from "../public/assets/founder.png";
-
-//importing animate on scrol
-import Aos from "aos";
-import "aos/dist/aos.css";
-
 //importing images
+import aboutHero from "../public/aboutHero.PNG"
+import founder from "../public/assets/founder.png";
 import jumia from "../public/assets/jumia.png";
 import aerix from "../public/assets/aerix.png";
 import max from "../public/assets/max.png";
@@ -35,6 +31,11 @@ import { FaAccessibleIcon, FaTripadvisor } from "react-icons/fa";
 import { TiBusinessCard } from "react-icons/ti";
 import { GrBusinessService } from "react-icons/gr";
 
+//importing animate on scrol
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+
 function AboutUs() {
   useEffect(() => {
     Aos.init({
@@ -46,7 +47,7 @@ function AboutUs() {
     <Layout title="AboutUs">
       <div>
         <div className="bg-[rgb(7,39,78)] text-white">
-          <section className="container items-center px-4 pb-12 mx-auto mt-20 lg:flex md:px-40">
+          <section className="container items-center px-4 pb-12 mt-20 lg:flex md:px-40">
             <div className="flex-1 space-y-4 sm:text-center lg:text-left">
               <h1
                 className="text-4xl font-bold text-yellow-500 md: flex justify-center lg:justify-start"
@@ -76,13 +77,12 @@ function AboutUs() {
                 </Link>
               </div>
             </div>
-            <div>
+            <div className="hidden h-[450px] w-[450px] md:inline lg:h-[550px] lg:w-[500px]">
               <Image
-                src="https://cdn.pixabay.com/photo/2022/09/29/17/15/halloween-7487706__340.jpg"
-                className="w-full mx-auto mt-6 sm:w-10/12 lg:w-full"
+                src={aboutHero}
+                className="w-full mt-6 sm:w-10/12 lg:w-full"
                 data-aos="fade-down"
                 data-aos-delay="400"
-                layout="fill"
                 alt="hero"
               />
             </div>
@@ -90,8 +90,17 @@ function AboutUs() {
         </div>
 
         {/* second section */}
-        <div className="container items-center px-4 pb-12 mx-auto mt-20 lg:flex md:px-40">
-          <div className="flex-1 space-y-4 sm:text-center lg:text-left">
+        <div className="container items-center px-4 pb-12 mt-20 lg:flex md:px-40">
+          <div className="hidden h-[450px] w-[450px] md:inline lg:h-[550px] lg:w-[500px]">
+              <Image
+                src={aboutHero}
+                className="w-full mt-12 sm:w-10/12 lg:w-25"
+                data-aos="fade-down"
+                data-aos-delay="400"
+                alt="our business image"
+              />
+            </div>
+          <div className="flex-1 space-y-4 sm:text-center lg:text-left mt-0">
             <h1
               className="text-4xl font-bold text-[rgb(7,39,78)]  md: flex justify-center lg:justify-start ml-0"
               data-aos="fade-down"
@@ -112,16 +121,6 @@ function AboutUs() {
               We build a team tailored to your goals at the right budget. Our
               approach is lean and streamlined and should be a .
             </p>
-          </div>
-          <div>
-            <Image
-              src="https://cdn.pixabay.com/photo/2022/09/29/17/15/halloween-7487706__340.jpg"
-              className="w-full mx-auto mt-6 sm:w-10/12 lg:w-25"
-              data-aos="fade-down"
-              data-aos-delay="400"
-              layout="fill"
-              alt="our business image"
-            />
           </div>
         </div>
 
