@@ -3,7 +3,7 @@ import Link from "next/link";
 import Layout from "../components/Layout";
 import Image from "next/image";
 import ElanBlogHero from "../public/elanblog.jpg";
-import ElanBlog1 from "../public/elanblog1.PNG";
+import ElanBlog1 from "../public/elanblog1.png";
 import ElanBlog2 from "../public/elanblog2.PNG";
 import ElanBlog3 from "../public/elanblog3.PNG";
 import ElanBlog4 from "../public/elanblog4.PNG";
