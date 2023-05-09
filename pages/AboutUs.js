@@ -80,7 +80,7 @@ function AboutUs() {
             <div className="hidden h-[450px] w-[450px] md:inline lg:h-[550px] lg:w-[500px]">
               <Image
                 src={aboutHero}
-                className="w-full mx-auto mt-6 sm:w-10/12 lg:w-full"
+                className="w-full mt-6 sm:w-10/12 lg:w-full"
                 data-aos="fade-down"
                 data-aos-delay="400"
                 alt="hero"
