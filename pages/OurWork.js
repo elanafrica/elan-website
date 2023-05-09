@@ -243,6 +243,24 @@ function OurWork() {
           />
         </div>
       </div>
+      <div className="mt-9 mb-7">
+        <p className="text-2xl text-center ">Testimonials</p>
+        <div
+          className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex  md: flex justify-center"
+          style={{ animation: "scaleIn 1s ease-in-out" }}
+        >
+          <Link href="/">
+            <button
+              className="block mt-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto"
+              data-aos="fade-down"
+              data-aos-delay="400"
+              type="submit"
+            >
+              View More
+            </button>
+          </Link>
+        </div>
+      </div>
 
       <div className=" m-4  mt-7 flex flex-wrap items-center justify-center">
         <div className="w-1/2 pr-5 mt-7 mb-5">
