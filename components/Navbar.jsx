@@ -138,10 +138,10 @@ function Navbar() {
             Blog
           </Link>
           <Link
-            href="/Testimonials"
+            href="/Careers"
             className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
           >
-            Testimonials
+            Careers
           </Link>
           <Link
             href="/ContactUs"
