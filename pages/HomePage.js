@@ -45,22 +45,18 @@ function HomePage() {
     <Layout title="HomePage">
       <div className="m-4">
         <div className="  ">
-          <div className="relative">
-            <Image className="w-full bg-[#0b2546]" src={Hero} alt="hero" />
-            <div className="text-overlay absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white p-5 animate-slide-in-right">
-              <h1 className="text-3xl sm:text-4xl font-bold capitalize mb-5">
+          <div className="bg-[#0b2546] text-white flex flex-wrap items-center justify-center justify-between">
+            <div className="text-center w-1/2 pr-5  p-5">
+              <h1 className="text-3xl sm:text-3xl font-bold capitalize mb-5">
                 Everyone Wants to Live on the Moon. Your Business Does Too.
               </h1>
               <p className="text-xl font-light sm:w-80 w-64 mx-auto">
                 We may just know how to make that happen.
               </p>
-              <div
-                className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex  md: flex justify-center"
-                style={{ animation: "scaleIn 1s ease-in-out" }}
-              >
+              <div className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex  md: flex justify-center">
                 <Link href="/">
                   <button
-                    className="block mt-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto"
+                    className="block mt-5 px-6 py-2 text-center text-[#0b2546] bg-white rounded-md mx-auto"
                     data-aos="fade-down"
                     data-aos-delay="400"
                   >
@@ -68,6 +64,9 @@ function HomePage() {
                   </button>
                 </Link>
               </div>
+            </div>
+            <div className="w-1/2 pr-5">
+              <Image className="w-full hero-container" src={Hero} alt="hero" />
             </div>
           </div>
 
