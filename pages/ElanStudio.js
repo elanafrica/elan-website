@@ -15,7 +15,7 @@ import Elanstudcard4 from "../public/show8.png";
 import Elanstudcard5 from "../public/show16.png";
 import Elanstudcard6 from "../public/show12.png";
 import Elanstudcard7 from "../public/show4.png";
-import Elanstudcard8 from "../public/show17.png;
+import Elanstudcard8 from "../public/show17.png";
 
 function ElanStudio() {
   return (
