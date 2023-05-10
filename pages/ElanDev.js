@@ -1,24 +1,25 @@
 import React, { useEffect } from "react";
 import Layout from "@/components/Layout";
+import Image from "next/image";
+import Link from "next/link";
 
-//importing animate on scrol
+//importing animate on scroll
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Logoh from "../public/elandev3.jpg";
 
+//importing images
 import Elandev1 from "../public/elandev2.jpg";
-import Elandev2 from "../public/elandev2.PNG";
-import Elandev3 from "../public/elandev3.PNG";
-import Elandev4 from "../public/elandev4.PNG";
-import Elandev5 from "../public/elandev5.PNG";
-import Elandev6 from "../public/elandev6.PNG";
-import Elandevcard1 from "../public/elandevcard1.PNG";
-import Elandevcard2 from "../public/elandevcard2.PNG";
-import Elandevcard3 from "../public/elandevcard3.PNG";
-import Elandevcard4 from "../public/elandevcard4.PNG";
+import Elandev2 from "../public/elandev2.png";
+import Elandev3 from "../public/elandev3.png";
+import Elandev4 from "../public/elandev4.png";
+import Elandev5 from "../public/elandev5.png";
+import Elandev6 from "../public/elandev6.png";
+import Elandevcard1 from "../public/elandevcard1.png";
+import Elandevcard2 from "../public/elandevcard2.png";
+import Elandevcard3 from "../public/elandevcard3.png";
+import Elandevcard4 from "../public/elandevcard4.png";
 
-import Image from "next/image";
-import Link from "next/link";
 
 function ElanDev() {
   useEffect(() => {
@@ -27,6 +28,7 @@ function ElanDev() {
       offset: 0,
     });
   }, []);
+  
   return (
     <Layout title="ElanDev">
       <div className="m-4">
@@ -68,6 +70,7 @@ function ElanDev() {
                 </p>
               </div>
             </div>
+
             <div className="w-1/2 pr-5 animate-fade-in-right elandev2">
               <Image className="w-full" src={Elandev1} alt="elandev2" />
             </div>
@@ -292,7 +295,6 @@ function ElanDev() {
             Some Case Studies
           </h2>
         </div>
-
         <div className="flex mt-9 elandev4">
           <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in-left">
             <Image className="w-full " src={Elandev3} alt="elandev3" />
@@ -379,7 +381,7 @@ function ElanDev() {
           <h2 className="text-4xl mb-5">
             Do you want to understand your tech needs or build great products?
           </h2>
-          <p>Schedule a Consultation.​</p>
+          <p>Schedule a Consultation.</p>
         </div>
         <div className="w-1/2 pr-5">
           <form className="bg-gray-100 p-6 rounded-lg  bg-[#16808C]">
