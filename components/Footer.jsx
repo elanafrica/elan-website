@@ -23,7 +23,7 @@ function Footer() {
         </h3>
         <div className="flex">
           <div class="justify-items-start grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5 sm:px-40 px-5 py-16">
-            <ul className="">
+            <ul className="md:mb-0 lg:leading-normal md:w-2/5">
               <li>team@elanafrica.com</li>
               <li>Tel: +2347031150441</li>
               <li>+2348023033175</li>
@@ -31,7 +31,7 @@ function Footer() {
             </ul>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5 sm:px-40 px-5 py-16">
-            <ul className="">
+            <ul className=" md:mb-0 lg:leading-normal md:w-2/5">
               <li>
                 <Link href="/HomePage">Home</Link>
               </li>
