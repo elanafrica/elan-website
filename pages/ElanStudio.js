@@ -1,20 +1,22 @@
 import React from "react";
 import Layout from "@/components/Layout";
-import Logoh from "../public/elanstudio.jpg";
-import Elanstud from "../public/elanstud.PNG";
-import Elanstud2 from "../public/elanstud2.PNG";
-import Elanstud3 from "../public/elanstud3.PNG";
-import Elanstud4 from "../public/elanstud.PNG";
-import Elanstudcard1 from "../public/elanstud.PNG";
-import Elanstudcard2 from "../public/show14.PNG";
-import Elanstudcard3 from "../public/elanstud.PNG";
-import Elanstudcard4 from "../public/show8.PNG";
-import Elanstudcard5 from "../public/show16.PNG";
-import Elanstudcard6 from "../public/show12.PNG";
-import Elanstudcard7 from "../public/show4.PNG";
-import Elanstudcard8 from "../public/show17.PNG";
 import Image from "next/image";
 import Link from "next/link";
+//importing images
+import Logoh from "../public/elanstudio.jpg";
+import Elanstud from "../public/elanstud.png";
+import Elanstud2 from "../public/elanstud2.png";
+import Elanstud3 from "../public/elanstud3.png";
+import Elanstud4 from "../public/elanstud.png";
+import Elanstudcard1 from "../public/elanstud.png";
+import Elanstudcard2 from "../public/show14.png";
+import Elanstudcard3 from "../public/elanstud.png";
+import Elanstudcard4 from "../public/show8.png";
+import Elanstudcard5 from "../public/show16.png";
+import Elanstudcard6 from "../public/show12.png";
+import Elanstudcard7 from "../public/show4.png";
+import Elanstudcard8 from "../public/show17.png
+
 function ElanStudio() {
   return (
     <Layout title="ElanStudio">
