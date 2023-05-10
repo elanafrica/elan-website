@@ -1,18 +1,18 @@
 import React from "react";
 import Layout from "@/components/Layout";
-import Logoh from "../public/elan1.PNG";
-import Elangrowth1 from "../public/elangrowth.PNG";
-import Elangrowth2 from "../public/elangrowth2.PNG";
-import Elangrowth3 from "../public/elangrowth3.PNG";
-import Elangrowth4 from "../public/elangrowth4.PNG";
-import Elangrowth5 from "../public/elangrowth5.PNG";
-import Elangrowth6 from "../public/elangrowth6.PNG";
-import Elangrowth7 from "../public/elangrowth7.PNG";
-import Elangrowth8 from "../public/elangrowth8.PNG";
-import Elangrowth9 from "../public/elangrowth9.PNG";
+import Logoh from "../public/elan1.png";
+import Elangrowth1 from "../public/elangrowth.png";
+import Elangrowth2 from "../public/elangrowth2.png";
+import Elangrowth3 from "../public/elangrowth3.png";
+import Elangrowth4 from "../public/elangrowth4.png";
+import Elangrowth5 from "../public/elangrowth5.png";
+import Elangrowth6 from "../public/elangrowth6.png";
+import Elangrowth7 from "../public/elangrowth7.png";
+import Elangrowth8 from "../public/elangrowth8.png";
+import Elangrowth9 from "../public/elangrowth9.png";
 import Image from "next/image";
 
-function ElanGrowth() {
+function ElanGrowth() { 
   return (
     <Layout title="ElanGrowth">
       <div className="p-4">
