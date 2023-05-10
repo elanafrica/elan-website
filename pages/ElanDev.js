@@ -2,21 +2,21 @@ import React from "react";
 import Layout from "@/components/Layout";
 import Logoh from "../public/elan2.PNG";
 
-import Elandev1 from "../public/elandev1.PNG";
-import Elandev2 from "../public/elandev2.PNG";
-import Elandev3 from "../public/elandev3.PNG";
-import Elandev4 from "../public/elandev4.PNG";
-import Elandev5 from "../public/elandev5.PNG";
-import Elandev6 from "../public/elandev6.PNG";
-import Elandevcard1 from "../public/elandevcard1.PNG";
-import Elandevcard2 from "../public/elandevcard2.PNG";
-import Elandevcard3 from "../public/elandevcard3.PNG";
-import Elandevcard4 from "../public/elandevcard4.PNG";
-import Elangrowth5 from "../public/elangrowth5.PNG";
-import Elangrowth6 from "../public/elangrowth6.PNG";
-import Elangrowth7 from "../public/elangrowth7.PNG";
-import Elangrowth8 from "../public/elangrowth8.PNG";
-import Elangrowth9 from "../public/elangrowth9.PNG";
+import Elandev1 from "../public/elandev1.png";
+import Elandev2 from "../public/elandev2.png";
+import Elandev3 from "../public/elandev3.png";
+import Elandev4 from "../public/elandev4.png";
+import Elandev5 from "../public/elandev5.png";
+import Elandev6 from "../public/elandev6.png";
+import Elandevcard1 from "../public/elandevcard1.png";
+import Elandevcard2 from "../public/elandevcard2.png";
+import Elandevcard3 from "../public/elandevcard3.png";
+import Elandevcard4 from "../public/elandevcard4.png";
+import Elangrowth5 from "../public/elangrowth5.png";
+import Elangrowth6 from "../public/elangrowth6.png";
+import Elangrowth7 from "../public/elangrowth7.png";
+import Elangrowth8 from "../public/elangrowth8.png";
+import Elangrowth9 from "../public/elangrowth9.png";
 import Image from "next/image";
 
 function ElanDev() {
@@ -62,7 +62,7 @@ function ElanDev() {
               </div>
             </div>
             <div className=" w-1/2 pr-5">
-              <Image className="w-full" src={Elandev1} alt="elandev2" />
+              <Image className="w-full" src={Elandev1} alt="dev2" />
             </div>
           </div>
 
@@ -213,7 +213,7 @@ function ElanDev() {
             </div>
           </div>
           <div className="mt-9 mb-5">
-            <Image className="w-full" src={Elandev2} alt="elandev2" />
+            <Image className="w-full" src={Elandev2} alt="elandev" />
           </div>
         </div>
 
@@ -275,7 +275,7 @@ function ElanDev() {
 
         <div className="flex mt-9">
           <div className="mt-7 w-1/2 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <Image className="w-full" src={Elandev3} alt="elandev3" />
+            <Image className="w-full" src={Elandev3} alt="elandev" />
           </div>
           <div className=" w-1/2 pr-5">
             <h2 className=" text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
