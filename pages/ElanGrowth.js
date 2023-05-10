@@ -1,20 +1,21 @@
 import React, { useEffect } from "react";
 import Layout from "@/components/Layout";
 
+import Logoh from "../public/elan1.png";
+import Elangrowth1 from "../public/elangrowth.png";
+import Elangrowth2 from "../public/elangrowth2.png";
+import Elangrowth3 from "../public/elangrowth3.png";
+import Elangrowth4 from "../public/elangrowth4.png";
+import Elangrowth5 from "../public/elangrowth5.png";
+import Elangrowth6 from "../public/elangrowth6.png";
+import Elangrowth7 from "../public/elangrowth7.png";
+import Elangrowth8 from "../public/elangrowth8.png";
+import Elangrowth9 from "../public/elangrowth9.png";
+
 //importing animate on scrol
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-import Logoh from "../public/elangrowth.jpg";
-import Elangrowth1 from "../public/elangrowth.PNG";
-import Elangrowth2 from "../public/elangrowth2.PNG";
-import Elangrowth3 from "../public/elangrowth3.PNG";
-import Elangrowth4 from "../public/elangrowth4.PNG";
-import Elangrowth5 from "../public/elangrowth5.PNG";
-import Elangrowth6 from "../public/elangrowth6.PNG";
-import Elangrowth7 from "../public/elangrowth7.PNG";
-import Elangrowth8 from "../public/elangrowth8.PNG";
-import Elangrowth9 from "../public/elangrowth9.PNG";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -25,6 +26,7 @@ function ElanGrowth() {
       offset: 0,
     });
   }, []);
+
   return (
     <Layout title="ElanGrowth">
       <div className="m-4">
