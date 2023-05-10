@@ -416,7 +416,7 @@ function Blog() {
           <div className="grid grid-cols-3 gap-8">
             {posts.map((post, id) => (
               <Link href="/Blog" key={id}>
-                <BlogCard key={id} post={post} />
+                <BlogCard key={post.title} post={post} />
               </Link>
             ))}
           </div>

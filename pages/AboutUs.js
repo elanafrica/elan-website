@@ -4,13 +4,9 @@ import Layout from "@/components/Layout";
 import Image from "next/image";
 import Link from "next/link";
 
-import founder from "../public/assets/founder.png";
-
-//importing animate on scrol
-import Aos from "aos";
-import "aos/dist/aos.css";
-
 //importing images
+import aboutHero from "../public/assets/aboutHero.png"
+import founder from "../public/assets/founder.png";
 import jumia from "../public/assets/jumia.png";
 import aerix from "../public/assets/aerix.png";
 import max from "../public/assets/max.png";
@@ -35,6 +31,11 @@ import { FaAccessibleIcon, FaTripadvisor } from "react-icons/fa";
 import { TiBusinessCard } from "react-icons/ti";
 import { GrBusinessService } from "react-icons/gr";
 
+//importing animate on scrol
+import Aos from "aos";
+import "aos/dist/aos.css";
+
+
 function AboutUs() {
   useEffect(() => {
     Aos.init({
@@ -46,10 +47,10 @@ function AboutUs() {
     <Layout title="AboutUs">
       <div>
         <div className="bg-[rgb(7,39,78)] text-white">
-          <section className="container items-center px-4 pb-12 mx-auto mt-20 lg:flex md:px-40">
+          <section className="container items-center px-4 pb-12 mt-20 lg:flex md:px-40">
             <div className="flex-1 space-y-4 sm:text-center lg:text-left">
               <h1
-                className="text-4xl font-bold text-yellow-500 md: flex justify-center lg:justify-start"
+                className="text-4xl font-bold text-teal-400 md: flex justify-center lg:justify-start"
                 data-aos="fade-down"
                 data-aos-delay="400"
               >
@@ -67,7 +68,7 @@ function AboutUs() {
               <div className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex lg:justify-start md: flex justify-center">
                 <Link href="/">
                   <button
-                    className="block px-6 py-2 text-center text-white bg-yellow-600 rounded-md"
+                    className="block px-6 py-2 text-center text-white bg-teal-500 rounded-md"
                     data-aos="fade-down"
                     data-aos-delay="400"
                   >
@@ -76,21 +77,30 @@ function AboutUs() {
                 </Link>
               </div>
             </div>
-            <div>
-              <img
-                src="https://cdn.pixabay.com/photo/2022/09/29/17/15/halloween-7487706__340.jpg"
-                className="w-full mx-auto mt-6 sm:w-10/12 lg:w-full"
+            <div className="hidden h-[450px] w-[450px] md:inline lg:h-[550px] lg:w-[500px]">
+              <Image
+                src={aboutHero}
+                className="w-full mt-6 sm:w-10/12 lg:w-full"
                 data-aos="fade-down"
                 data-aos-delay="400"
-                layout="fill"
+                alt="hero"
               />
             </div>
           </section>
         </div>
 
         {/* second section */}
-        <div className="container items-center px-4 pb-12 mx-auto mt-20 lg:flex md:px-40">
-          <div className="flex-1 space-y-4 sm:text-center lg:text-left">
+        <div className="container items-center px-4 pb-12 mt-20 lg:flex md:px-40">
+          <div className="hidden h-[450px] w-[450px] md:inline lg:h-[550px] lg:w-[500px]">
+              <Image
+                src={aboutHero}
+                className="w-full mt-12 sm:w-10/12 lg:w-25"
+                data-aos="fade-down"
+                data-aos-delay="400"
+                alt="our business image"
+              />
+            </div>
+          <div className="flex-1 space-y-4 sm:text-center lg:text-left mt-0">
             <h1
               className="text-4xl font-bold text-[rgb(7,39,78)]  md: flex justify-center lg:justify-start ml-0"
               data-aos="fade-down"
@@ -111,15 +121,6 @@ function AboutUs() {
               We build a team tailored to your goals at the right budget. Our
               approach is lean and streamlined and should be a .
             </p>
-          </div>
-          <div>
-            <img
-              src="https://cdn.pixabay.com/photo/2022/09/29/17/15/halloween-7487706__340.jpg"
-              className="w-full mx-auto mt-6 sm:w-10/12 lg:w-25"
-              data-aos="fade-down"
-              data-aos-delay="400"
-              layout="fill"
-            />
           </div>
         </div>
 
@@ -405,6 +406,7 @@ function AboutUs() {
                 <div className="lg:w-20 h-50 mx-auto bg-[rgb(7,39,78)] p-0.5 rounded-full">
                   <Image
                     src={founder}
+                    alt="founder"
                     className="lg:w-20 rounded-full"
                     data-aos="fade-down"
                     data-aos-delay="400"
@@ -434,6 +436,7 @@ function AboutUs() {
                 <div className="lg:w-20 h-50 mx-auto bg-[rgb(7,39,78)] p-0.5 rounded-full">
                   <Image
                     src={founder}
+                    alt="founder"
                     className="lg:w-20 rounded-full"
                     data-aos="fade-down"
                     data-aos-delay="400"
@@ -463,34 +466,34 @@ function AboutUs() {
         <div className="slider my-10">
           <div className="slideTrack">
             <div className="slide">
-              <Image src={aerix} className="imgPartner" />
+              <Image src={aerix} className="imgPartner" alt="aerix"/>
             </div>
             <div className="slide">
-              <Image src={max} className="imgPartner" />
+              <Image src={max} className="imgPartner" alt="max"/>
             </div>
             <div className="slide">
-              <Image src={gomarket} className="imgPartner" />
+              <Image src={gomarket} className="imgPartner" alt="gomarket" />
             </div>
             <div className="slide">
-              <Image src={jumia} className="imgPartner" />
+              <Image src={jumia} className="imgPartner" alt="jumia"/>
             </div>
             <div className="slide">
-              <Image src={microsoft} className="imgPartner" />
+              <Image src={microsoft} className="imgPartner" alt="microsoft"/>
             </div>
             <div className="slide">
-              <Image src={fazsion} className="imgPartner" />
+              <Image src={fazsion} className="imgPartner" alt="fazsion"/>
             </div>
             <div className="slide">
-              <Image src={kobo} className="imgPartner" />
+              <Image src={kobo} className="imgPartner" alt="kobo"/>
             </div>
             <div className="slide">
-              <Image src={mrprice} className="imgPartner" />
+              <Image src={mrprice} className="imgPartner" alt="mrprice"/>
             </div>
             <div className="slide">
-              <Image src={playns} className="imgPartner" />
+              <Image src={playns} className="imgPartner" alt="playns"/>
             </div>
             <div className="slide">
-              <Image src={konga} className="imgPartner" />
+              <Image src={konga} className="imgPartner" alt="konga"/>
             </div>
           </div>
         </div>

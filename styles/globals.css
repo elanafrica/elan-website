@@ -303,3 +303,34 @@ animate-fadeIn {
     transform: translateY(0);
   }
 }
+
+.hero-container {
+  position: relative;
+  width: 30%;
+  overflow: hidden;
+  border-radius: 40%;
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text-overlay {
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    width: 100%;
+  }
+
+  .text-overlay {
+    width: 100%;
+  }
+}
