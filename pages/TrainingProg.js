@@ -3,7 +3,7 @@ import Layout from "../components/Layout";
 
 function TrainingProg() {
   return (
-    <Layout>
+    <Layout title="TrainingProgrammes">
       <div>
         <p>Training Programmes</p>
       </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "@/components/Layout";
 import Logoh from "../public/logo.png";
 import Home1 from "../public/elanpic2.PNG";
@@ -31,13 +31,27 @@ import Brand14 from "../public/brand14.PNG";
 import Brand15 from "../public/brand15.PNG";
 import Image from "next/image";
 import Link from "next/link";
+//importing animate on scrol
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Services() {
+  useEffect(() => {
+    Aos.init({
+      duration: 1800,
+      offset: 0,
+    });
+  }, []);
   return (
     <Layout title="Services">
-      <div>
+      <div className="m-4">
         <div className="  ">
-          <div class="bg-[#0b2546] text-white mt-5 mb-4 text-center">
+          <div
+            className="bg-[#0b2546] text-white mt-5 mb-4 text-center"
+            style={{ animation: "fadeIn 1s ease-in-out" }}
+            ata-aos="fade-down"
+            data-aos-delay="400"
+          >
             <div class="pt-6 pb-4 text-4xl font-bold">
               <h1>Intelligent wins. Early results. Long-term growth.</h1>
             </div>
@@ -49,27 +63,38 @@ function Services() {
                 potential.
               </p>
             </div>
-            <div className="container mx-auto mb-3">
-              <div className="flex flex-wrap justify-center gap-4">
-                <Image className="w-32" src={Home2} alt="home1" />
-                <Image className="w-32" src={Home3} alt="home1" />
-                <Image className="w-32" src={Home4} alt="home1" />
-                <Image className="w-32" src={Home5} alt="home1" />
-                <Image className="w-32" src={Home5} alt="home1" />
+            <div className="container mx-auto mt-5 mb-5">
+              <div className="flex flex-wrap justify-center gap-4 mb-5">
+                <Image
+                  className="w-32 homepage22 mb-5"
+                  src={Home3}
+                  alt="home1"
+                />
+                <Image
+                  className="w-32 homepage22 mb-5"
+                  src={Home4}
+                  alt="home1"
+                />
+                <Image
+                  className="w-32 homepage22 mb-5"
+                  src={Home5}
+                  alt="home1"
+                />
+                <Image
+                  className="w-32 homepage22 mb-5"
+                  src={Home5}
+                  alt="home1"
+                />
               </div>
-            </div>
-
-            <div class="bg-[#231F14]">
-              <Image class="w-40  mx-auto" src={Logoh} alt="Logo" />
             </div>
           </div>
 
-          <div className="mt-7 flex justify-between">
+          <div className="mt-7 g-2 flex flex-wrap items-center justify-center">
             <div className="w-1/2 pr-5">
-              <h4 className="text-[] text-2xl mb-2">
+              <h4 className="text-[] text-3xl mb-2">
                 You’ve got business goals?
               </h4>
-              <h2 className="text-[#00C9AA] text-3xl mb-5">
+              <h2 className="text-[#00C9AA] text-2xl mb-5">
                 We’ll build the roadmap.
               </h2>
               <p>
@@ -79,10 +104,15 @@ function Services() {
                 cross-channel insights, and, ultimately, grow.
               </p>
             </div>
-            <div className="w-1/2 pr-5">
-              <div className="flex g-2">
-                <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 text-xl font-bold mb-4 text-white">
-                  <h4 className="text-white text-xl">Simplicity</h4>
+            <div
+              className="w-1/2 pr-5"
+              style={{ animation: "fadeIn 1s ease-in-out" }}
+              ata-aos="fade-down"
+              data-aos-delay="400"
+            >
+              <div className="flex g-2 hpmepage2">
+                <div className="bg-[#0b2546] rounded-lg shadow-lg p-6   mb-4 text-white">
+                  <h4 className="text-white text-xl mb-4">Simplicity</h4>
                   <p>
                     Our process is simple: learn, activate, analyze,
                     optimize,repeat. There’s no blueprint for growth. Over the
@@ -90,8 +120,8 @@ function Services() {
                     and quickly identify what works.
                   </p>
                 </div>
-                <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 text-xl font-bold mb-4 text-white">
-                  <h4 className="text-white text-xl">Execution</h4>
+                <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 mb-4 text-white">
+                  <h4 className="text-white text-xl mb-4">Execution</h4>
                   <p>
                     Execution happens in the hands of a network of deeply
                     experienced experts who continuously test, optimize, and
@@ -99,17 +129,17 @@ function Services() {
                   </p>
                 </div>
               </div>
-              <div className="flex g-2">
-                <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 text-xl font-bold mb-4 text-white">
-                  <h4 className="text-white text-xl">Clear Goals</h4>
+              <div className="flex g-2 homepage2">
+                <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 mb-4 text-white">
+                  <h4 className="text-white text-xl mb-4">Clear Goals</h4>
                   <p>
                     Before we deploy any strategy or spend, we’ll get detailed
                     about what success looks like. Most often, we’re
                     laser-focused on revenue. ​
                   </p>
                 </div>
-                <div className="bg-[#0b2546] rounded-lg shadow-lg p-6 text-xl font-bold mb-4 text-white">
-                  <h4 className="text-white text-xl">We Start Lean</h4>
+                <div className="bg-[#0b2546] rounded-lg shadow-lg p-6  mb-4 text-white">
+                  <h4 className="text-white text-xl mb-4">We Start Lean</h4>
                   <p>
                     We’re ruthless and relentless with results. Ultimately,
                     we’ll end up with the right channel mix that sets the stage
@@ -125,22 +155,42 @@ function Services() {
           <div className="p-6 text-3xl font-bold text-center">
             Our Product Suite
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pr-5">
-            <Image className="w-32" src={Home2} alt="home1" />
-            <Image className="w-32" src={Home3} alt="home1" />
-            <Image className="w-32" src={Home4} alt="home1" />
-            <Image className="w-32" src={Home5} alt="home1" />
-            <Image className="w-32" src={Home5} alt="home1" />
-          </div>
 
-          <button className=" hover:bg-teal-500 duration-300 px-5 py-3 rounded-md text-white sm:w-72 md:w-auto w-full">
-            <Link href="/about" className="bg-[#fff] text-black">
-              Learn More
+          <div className="mt-7 g-2 flex flex-wrap items-center justify-center">
+            <Link href="/ElanGrowth">
+              <Image className="w-32 homepage22" src={Home2} alt="home1" />
             </Link>
-          </button>
+            <Link href="/ElanDev">
+              <Image className="w-32 homepage22" src={Home3} alt="home1" />
+            </Link>
+            <Link href="/ElanTraining">
+              <Image className="w-32 homepage22" src={Home4} alt="home1" />
+            </Link>
+            <Link href="/ElanStudio">
+              <Image className="w-32 homepage22" src={Home5} alt="home1" />
+            </Link>
+            <Link href="/ElanAccelerate">
+              <Image className="w-32 homepage22" src={Home5} alt="home1" />
+            </Link>
+          </div>
+          <div
+            className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex  md: flex justify-center mb-5"
+            style={{ animation: "scaleIn 1s ease-in-out" }}
+          >
+            <Link href="/">
+              <button
+                className="block mt-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto mb-5"
+                data-aos="fade-down"
+                data-aos-delay="400"
+                type="submit"
+              >
+                Learn More
+              </button>
+            </Link>
+          </div>
         </div>
 
-        <div className="mt-7 flex justify-between">
+        <div className="mt-7 g-2 flex flex-wrap items-center justify-center">
           <div className="w-1/2 pr-5">
             <h2 className="text-red text-3xl mb-5">
               Elan Africa comes with proven experience and a network of top
@@ -148,7 +198,7 @@ function Services() {
             </h2>
           </div>
           <div className="w-1/2 pr-5">
-            <div className="flex g-2">
+            <div className="flex g-2 flex-wrap items-center justify-center">
               <div className="rounded-lg shadow-lg p-6  mb-4 ">
                 <h4 className="text-[#346294] font-bold text-xl">
                   Go-To Market
@@ -170,7 +220,7 @@ function Services() {
                 </p>
               </div>
             </div>
-            <div className="flex g-2">
+            <div className="flex g-2 flex-wrap items-center justify-center">
               <div className=" rounded-lg shadow-lg p-6 mb-4 ">
                 <h4 className="text-[#346294] font-bold text-xl">
                   Partnerships
@@ -195,7 +245,7 @@ function Services() {
           </div>
         </div>
       </div>
-      <div className=" mt-7 flex justify-between">
+      <div className="m-4  mt-7 flex flex-wrap items-center justify-center">
         <div className="w-1/2 pr-5">
           <h2 className="text-2xl">
             Like what you see and not just sure how to get started?
@@ -254,12 +304,21 @@ function Services() {
                 placeholder="Enter your message"
               ></textarea>
             </div>
-            <button
-              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-              type="submit"
+            <div
+              className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex  md: flex justify-center"
+              style={{ animation: "scaleIn 1s ease-in-out" }}
             >
-              Submit
-            </button>
+              <Link href="/">
+                <button
+                  className="block mt-5 px-6 py-2 text-center text-white bg-[#0b2546] rounded-md mx-auto"
+                  data-aos="fade-down"
+                  data-aos-delay="400"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </Link>
+            </div>
           </form>
         </div>
       </div>
