@@ -18,17 +18,17 @@ import { TiBusinessCard } from "react-icons/ti";
 import { GrBusinessService } from "react-icons/gr";
 
 import Logoh from "../public/elanaccehero.jpg";
-import ElanAcce1 from "../public/elanaccew.PNG";
-import ElanAcce2 from "../public/elanacce2.PNG";
-import ElanAcce3 from "../public/elanacce3.PNG";
-import ElanAcceimg from "../public/elanacceimg.PNG";
-import Elangrowth3 from "../public/elangrowth3.PNG";
-import Elangrowth4 from "../public/elangrowth4.PNG";
-import Elangrowth5 from "../public/elangrowth5.PNG";
-import Elangrowth6 from "../public/elangrowth6.PNG";
-import Elangrowth7 from "../public/elangrowth7.PNG";
-import Elangrowth8 from "../public/elangrowth8.PNG";
-import Elangrowth9 from "../public/elangrowth9.PNG";
+import ElanAcce1 from "../public/elanaccew.png";
+import ElanAcce2 from "../public/elanacce2.png";
+import ElanAcce3 from "../public/elanacce3.png";
+import ElanAcceimg from "../public/elanacceimg.png";
+import Elangrowth3 from "../public/elangrowth3.png";
+import Elangrowth4 from "../public/elangrowth4.png";
+import Elangrowth5 from "../public/elangrowth5.png";
+import Elangrowth6 from "../public/elangrowth6.png";
+import Elangrowth7 from "../public/elangrowth7.png";
+import Elangrowth8 from "../public/elangrowth8.png";
+import Elangrowth9 from "../public/elangrowth9.png";
 import Image from "next/image";
 import Link from "next/link";
 
