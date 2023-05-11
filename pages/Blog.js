@@ -20,8 +20,6 @@ import { BiTimeFive } from "react-icons/bi";
 import { GrGrommet, GrPowerCycle, GrAchievement } from "react-icons/gr";
 import BlogCard from "../components/BlogCard";
 
-import { useRouter } from "next/router";
-
 const posts = [
   {
     id: 1,
@@ -313,45 +311,116 @@ const posts = [
   },
 ];
 
-const BlogPost = ({ post }) => {
-  const router = useRouter();
+const Blog = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
-  // Render loading state while data is being fetched
-  if (router.isFallback) {
-    return <div>Loading...</div>;
-  }
-
+  const buttontoggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   return (
-    <div>
-      <div className="mt-9">
-        <div className="grid grid-cols-3 gap-8">
-          {posts.map(
-            (post, id) =>
-              (key = { id } > <BlogCard key={post.title} post={post} />)
-          )}
+    <Layout title="Blog">
+      <div>
+        <div className="relative">
+          <Image className="w-full" src={ElanBlogHero} alt="Logo" />
+          <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
+            <div className="text-center absolute top-1/2 left-1/2 bottom-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              <p className="px-6 pb-6 text-3xl font-bold">
+                Where we share insights and trends on sales, marketing, growth,
+                and creative content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-7 m-4 ">
+          <div className=" flex flex-wrap items-center justify-center ">
+            <Link
+              href="/Blog"
+              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            >
+              All Posts
+            </Link>
+            <Link
+              href="/AboutUs"
+              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Growth Marketing
+            </Link>
+
+            <Link
+              href="/OurWork"
+              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Business Tips
+            </Link>
+            <Link
+              href="/Blog"
+              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Growth Marketing Agency
+            </Link>
+            <Link
+              href="/Testimonials"
+              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Traditional Marketing Methods
+            </Link>
+            <Link
+              href="/ContactUs"
+              className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Marketing Tips
+            </Link>
+            <div className="relative">
+              <button
+                className="text-black-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                onClick={() => setIsOpen(!isOpen)}
+              >
+                More
+              </button>
+              <div
+                className={`${
+                  isOpen ? "block" : "hidden"
+                } absolute z-50 bg-white p-4 mt-1 rounded-md shadow-lg`}
+              >
+                <Link
+                  href="/ElanAccelerate"
+                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                >
+                  Business In Africa
+                </Link>
+                <Link
+                  href="/ElanDev"
+                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                >
+                  WorkPlace in Africa
+                </Link>
+                <Link
+                  href="/ElanGrowth"
+                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                >
+                  Founders Care Column
+                </Link>
+                <Link
+                  href="/ElanStudio"
+                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+                >
+                  Business Guide
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="grid grid-cols-3 gap-8 mt-9">
+          {posts.map((post) => (
+            <div className="grid grid-cols-3 gap-8">
+              <BlogCard key={post.title} post={post} />
+            </div>
+          ))}
         </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 
-export async function getStaticPaths() {
-  const paths = [
-    { params: { slug: "first-blog-post" } },
-    { params: { slug: "second-blog-post" } },
-  ];
-
-  return { paths, fallback: true };
-}
-
-export async function getStaticProps({ params }) {
-  const post = {
-    slug: params.slug,
-    title: "Sample Blog Post",
-    content: "This is the content of the blog post.",
-  };
-
-  return { props: { post } };
-}
-
-export default BlogPost;
+export default Blog;
