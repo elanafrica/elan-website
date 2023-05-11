@@ -306,9 +306,9 @@ animate-fadeIn {
 
 .hero-container {
   position: relative;
-  width: 30%;
+  width: 50%;
   overflow: hidden;
-  border-radius: 40%;
+  border-radius: 50%;
   animation: spin 10s linear infinite;
 }
 
