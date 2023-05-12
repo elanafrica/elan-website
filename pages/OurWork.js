@@ -34,6 +34,7 @@ import ElanWork25 from "../public/elanwork25.PNG";
 import Image from "next/image";
 import Link from "next/link";
 import VideoPlayer from "../components/VideoPlayer";
+import Testimonials from "@/components/Testimonials";
 
 function OurWork() {
   const videoUrl =
@@ -244,7 +245,6 @@ function OurWork() {
         </div>
       </div>
       <div className="mt-9 mb-7">
-        <p className="text-2xl text-center ">Testimonials</p>
         <div
           className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex  md: flex justify-center"
           style={{ animation: "scaleIn 1s ease-in-out" }}
@@ -262,6 +262,10 @@ function OurWork() {
         </div>
       </div>
 
+      <div>
+        <Testimonials />
+      </div>
+      
       <div className=" m-4  mt-7 flex flex-wrap items-center justify-center">
         <div className="w-1/2 pr-5 mt-7 mb-5">
           <h2 className="text-4xl mb-5">Start a project with us today.</h2>
