@@ -10,7 +10,6 @@ import OurWork from "./OurWork";
 import Portfolio from "./Portfolio";
 import PrivacyTermsCondition from "./PrivacyTermsCondition";
 import Services from "./Services";
-import Testimonials from "./Testimonials";
 import TrainingProg from "./TrainingProg";
 import FAQ from "./FAQ";
 // import Layout from "../components/Layout";
@@ -30,7 +29,6 @@ export default function Home() {
         <Portfolio />
         <PrivacyTermsCondition />
         <Services />
-        <Testimonials />
         <TrainingProg />
         <FAQ /> */}
       </main>
