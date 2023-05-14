@@ -47,23 +47,24 @@ function Services() {
       <div className="m-4">
         <div className="  ">
           <div
-            className="bg-[#0b2546] text-white mt-5 mb-4 text-center"
+            className=" mt-5 mb-4 text-center flex flex-wrap items-center justify-center"
             style={{ animation: "fadeIn 1s ease-in-out" }}
             ata-aos="fade-down"
             data-aos-delay="400"
           >
-            <div class="pt-6 pb-4 text-4xl font-bold">
-              <h1>Intelligent wins. Early results. Long-term growth.</h1>
-            </div>
-            <div class="px-6 pb-6 text-xl font-bold">
-              <p>
+            <div className=" w-1/2 pr-5">
+              <h1 className="pt-6 pb-4 text-4xl font-bold">
+                Intelligent wins. Early results. Long-term growth.
+              </h1>
+              <p className="px-6 pb-6 text-xl font-bold">
                 Elan Africa is your expert growth and execution partner. We are
                 a team of innovators across industries and we partner with the
                 best. We help many growth organizations reach their full
                 potential.
               </p>
             </div>
-            <div className="container mx-auto mt-5 mb-5">
+
+            <div className="mx-auto mt-5 mb-5 w-1/2 pr-5">
               <div className="flex flex-wrap justify-center gap-4 mb-5">
                 <Image
                   className="w-32 homepage22 mb-5"
@@ -151,7 +152,7 @@ function Services() {
           </div>
         </div>
 
-        <div className="mt-7 bg-[#346294] text-white ">
+        <div className="mt-7 bg-star-sprinkles  text-white ">
           <div className="p-6 text-3xl font-bold text-center">
             Our Product Suite
           </div>
@@ -190,7 +191,7 @@ function Services() {
           </div>
         </div>
 
-        <div className="mt-7 g-2 flex flex-wrap items-center justify-center">
+        <div className="mt-7 g-2 flex flex-wrap items-center justify-center  ">
           <div className="w-1/2 pr-5">
             <h2 className="text-red text-3xl mb-5">
               Elan Africa comes with proven experience and a network of top
