@@ -54,7 +54,7 @@ function HomePage() {
                 We may just know how to make that happen.
               </p>
               <div className="space-y-3 sm:space-x-6 sm:space-y-0 sm:flex md:flex justify-center">
-                <Link href="/">
+                <Link href="/ContactUs">
                   <button
                     className="block mt-5 px-6 py-2 text-center text-[#0b2546] bg-white rounded-md mx-auto"
                     data-aos="fade-down"
