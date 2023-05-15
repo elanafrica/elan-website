@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 //importing images
-import aboutHero from "../public/assets/aboutHero.png"
+import aboutHero from "../public/aboutus.jpg";
 import founder from "../public/assets/founder.png";
 import jumia from "../public/assets/jumia.png";
 import aerix from "../public/assets/aerix.png";
@@ -34,7 +34,6 @@ import { GrBusinessService } from "react-icons/gr";
 //importing animate on scrol
 import Aos from "aos";
 import "aos/dist/aos.css";
-
 
 function AboutUs() {
   useEffect(() => {
@@ -92,14 +91,14 @@ function AboutUs() {
         {/* second section */}
         <div className="container items-center px-4 pb-12 mt-20 lg:flex md:px-40">
           <div className="hidden h-[450px] w-[450px] md:inline lg:h-[550px] lg:w-[500px]">
-              <Image
-                src={aboutHero}
-                className="w-full mt-12 sm:w-10/12 lg:w-25"
-                data-aos="fade-down"
-                data-aos-delay="400"
-                alt="our business image"
-              />
-            </div>
+            <Image
+              src={aboutHero}
+              className="w-full mt-12 sm:w-10/12 lg:w-25"
+              data-aos="fade-down"
+              data-aos-delay="400"
+              alt="our business image"
+            />
+          </div>
           <div className="flex-1 space-y-4 sm:text-center lg:text-left mt-0">
             <h1
               className="text-4xl font-bold text-[rgb(7,39,78)]  md: flex justify-center lg:justify-start ml-0"
@@ -466,34 +465,34 @@ function AboutUs() {
         <div className="slider my-10">
           <div className="slideTrack">
             <div className="slide">
-              <Image src={aerix} className="imgPartner" alt="aerix"/>
+              <Image src={aerix} className="imgPartner" alt="aerix" />
             </div>
             <div className="slide">
-              <Image src={max} className="imgPartner" alt="max"/>
+              <Image src={max} className="imgPartner" alt="max" />
             </div>
             <div className="slide">
               <Image src={gomarket} className="imgPartner" alt="gomarket" />
             </div>
             <div className="slide">
-              <Image src={jumia} className="imgPartner" alt="jumia"/>
+              <Image src={jumia} className="imgPartner" alt="jumia" />
             </div>
             <div className="slide">
-              <Image src={microsoft} className="imgPartner" alt="microsoft"/>
+              <Image src={microsoft} className="imgPartner" alt="microsoft" />
             </div>
             <div className="slide">
-              <Image src={fazsion} className="imgPartner" alt="fazsion"/>
+              <Image src={fazsion} className="imgPartner" alt="fazsion" />
             </div>
             <div className="slide">
-              <Image src={kobo} className="imgPartner" alt="kobo"/>
+              <Image src={kobo} className="imgPartner" alt="kobo" />
             </div>
             <div className="slide">
-              <Image src={mrprice} className="imgPartner" alt="mrprice"/>
+              <Image src={mrprice} className="imgPartner" alt="mrprice" />
             </div>
             <div className="slide">
-              <Image src={playns} className="imgPartner" alt="playns"/>
+              <Image src={playns} className="imgPartner" alt="playns" />
             </div>
             <div className="slide">
-              <Image src={konga} className="imgPartner" alt="konga"/>
+              <Image src={konga} className="imgPartner" alt="konga" />
             </div>
           </div>
         </div>

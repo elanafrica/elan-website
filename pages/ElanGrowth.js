@@ -1,16 +1,16 @@
 import React, { useEffect } from "react";
 import Layout from "@/components/Layout";
 
-import Logoh from "../public/elan1.png";
+import Logoh from "../public/howthisworks.jpg";
 import Elangrowth1 from "../public/elangrowth.png";
-import Elangrowth2 from "../public/elangrowth2.png";
-import Elangrowth3 from "../public/elangrowth3.png";
-import Elangrowth4 from "../public/elangrowth4.png";
-import Elangrowth5 from "../public/elangrowth5.png";
-import Elangrowth6 from "../public/elangrowth6.png";
-import Elangrowth7 from "../public/elangrowth7.png";
-import Elangrowth8 from "../public/elangrowth8.png";
-import Elangrowth9 from "../public/elangrowth9.png";
+import Elangrowth2 from "../public/ourservices.jpg";
+import Elangrowth3 from "../public/growth.jpg";
+import Elangrowth4 from "../public/growthmarketing.jpg";
+import Elangrowth5 from "../public/productdevelopment.jpg";
+import Elangrowth6 from "../public/brand.jpg";
+import Elangrowth7 from "../public/ecommerceagency.jpg";
+import Elangrowth8 from "../public/ondemandcmo.jpg";
+import Elangrowth9 from "../public/marketingprojects.jpg";
 
 //importing animate on scrol
 import Aos from "aos";
@@ -75,7 +75,7 @@ function ElanGrowth() {
               </div>
               <div className=" mt-9 w-1/3 pr-5">
                 <Image
-                  className="w-full homepage22"
+                  className="w-72 homepage22"
                   src={Elangrowth1}
                   alt="Logo"
                 />
@@ -198,7 +198,7 @@ function ElanGrowth() {
         <div className="mt-9 m-4   flex flex-wrap items-center justify-center">
           <div className="w-1/2 pr-5">
             <h2 className="text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
-              Business Growth Consultancy.
+              Growth Marketing Agency.
             </h2>
             <div className="">
               <p className="mb-4">
@@ -235,27 +235,27 @@ function ElanGrowth() {
         </div>
 
         <div className="mt-9 homepage22 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
-          <div className="bg-[#000000] rounded-lg p-4">
+          <div className="bg-[#000000] rounded-lg p-4 shadow-lg">
             <p className="text-white font-medium text-sm">Analytics</p>
           </div>
-          <div className="bg-[#000000] rounded-lg p-4">
+          <div className="bg-[#000000] rounded-lg p-4 shadow-lg">
             <p className="text-white font-medium text-sm">
               Conversion Optimisation
             </p>
           </div>
-          <div className="bg-[#000000] rounded-lg p-4">
+          <div className="bg-[#000000] rounded-lg p-4 shadow-lg">
             <p className="text-white font-medium text-sm">Value Props</p>
           </div>
-          <div className="bg-[#000000] rounded-lg p-4">
+          <div className="bg-[#000000] rounded-lg p-4 shadow-lg">
             <p className="text-white font-medium text-sm">Email</p>
           </div>
-          <div className="bg-[#000000] rounded-lg p-4">
+          <div className="bg-[#000000] rounded-lg p-4 shadow-lg">
             <p className="text-white font-medium text-sm">Google Ads</p>
           </div>
-          <div className="bg-[#000000] rounded-lg p-4">
+          <div className="bg-[#000000] rounded-lg p-4 shadow-lg">
             <p className="text-white font-medium text-sm">Social Ads</p>
           </div>
-          <div className="bg-[#000000] rounded-lg p-4">
+          <div className="bg-[#000000] rounded-lg p-4 shadow-lg">
             <p className="text-white font-medium text-sm">
               Digital Advertising
             </p>
@@ -351,7 +351,7 @@ function ElanGrowth() {
           </div>
           <div className=" w-1/2 pr-5">
             <h2 className="text-[#0b2546] mt-7 text-3xl font-bold text-gray-800 mb-4">
-              Brand & Creative Development.
+              E-Commerce Agency.
             </h2>
             <div>
               <p className="mb-4">
@@ -471,9 +471,11 @@ function ElanGrowth() {
         </div>
       </div>
 
-      <div className="mt-7 mb-5 bg-[#000000] text-white">
+      <div className="mt-9 mb-5 bg-[#000000] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl">SOME KEYWORDS TO REMEMBER US BY ...</h1>
+          <h1 className="text-3xl mt-7 text-center">
+            SOME KEYWORDS TO REMEMBER US BY ...
+          </h1>
         </div>
         <div className="mt-7 flex m-4   flex-wrap items-center justify-center">
           <div className="mt-7 w-1/2 pr-5">
@@ -488,42 +490,42 @@ function ElanGrowth() {
           </div>
           <div className="w-1/2 mb-5 pr-5 ">
             <div className="mt-9 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 homepage2">
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse shadow-lg">
                 <p className="text-black font-medium text-sm">
                   Business Growth
                 </p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
                 <p className="text-black font-medium text-sm">Sales</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
                 <p className="text-black font-medium text-sm">Marketing</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
                 <p className="text-black font-medium text-sm">Africa</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
                 <p className="text-black font-medium text-sm">Strategy</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
                 <p className="text-black font-medium text-sm">Consulting</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
                 <p className="text-black font-medium text-sm">Revenue</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
                 <p className="text-black font-medium text-sm">E-Commerce</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
                 <p className="text-black font-medium text-sm">Growth Hacking</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
                 <p className="text-black font-medium text-sm">Partner</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
                 <p className="text-black font-medium text-sm">Performance</p>
               </div>
-              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse">
+              <div className="bg-[#ffff] rounded-lg p-4 animate-pulse  shadow-lg">
                 <p className="text-black font-medium text-sm">Traction</p>
               </div>
             </div>

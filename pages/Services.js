@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Layout from "@/components/Layout";
-import Logoh from "../public/logo.png";
-import Home1 from "../public/elanpic2.PNG";
+
+import ServicesHero from "../public/sevices.jpg";
 import Home2 from "../public/elan1.PNG";
 import Home3 from "../public/elan2.PNG";
 import Home4 from "../public/elan3.PNG";
@@ -65,26 +65,11 @@ function Services() {
             </div>
 
             <div className="mx-auto mt-5 mb-5 w-1/2 pr-5">
-              <div className="flex flex-wrap justify-center gap-4 mb-5">
+              <div className="">
                 <Image
-                  className="w-32 homepage22 mb-5"
-                  src={Home3}
-                  alt="home1"
-                />
-                <Image
-                  className="w-32 homepage22 mb-5"
-                  src={Home4}
-                  alt="home1"
-                />
-                <Image
-                  className="w-32 homepage22 mb-5"
-                  src={Home5}
-                  alt="home1"
-                />
-                <Image
-                  className="w-32 homepage22 mb-5"
-                  src={Home5}
-                  alt="home1"
+                  className="w-full homepage22 mb-5"
+                  src={ServicesHero}
+                  alt="serviceshero"
                 />
               </div>
             </div>
