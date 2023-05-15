@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import Layout from "@/components/Layout";
 import Logoh from "../public/elantraining2.jpg";
-import Elantraining from "../public/elantraining.PNG";
-import Elantrain1 from "../public/elantrain1.PNG";
-import Elantrain2 from "../public/elantrain2.PNG";
-import Elantrain3 from "../public/elantrain3.PNG";
+import Elantraining from "../public/elantraining2.jpg";
+import Elantrain1 from "../public/elantraining2.jpg";
+import Elantrain2 from "../public/elantraining2.jpg";
+import Elantrain3 from "../public/elantraining2.jpg";
 //importing icons
 import { DiUnitySmall } from "react-icons/di";
 import { BiCodeAlt } from "react-icons/bi";
