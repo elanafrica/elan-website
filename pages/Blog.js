@@ -18,7 +18,7 @@ import ElanBlog12 from "../public/elanblog12.png";
 
 import { BiTimeFive } from "react-icons/bi";
 import { GrGrommet, GrPowerCycle, GrAchievement } from "react-icons/gr";
-import BlogCard from "../components/BlogCard";
+import BlogCard from "./BlogCard";
 
 const posts = [
   {
@@ -331,7 +331,6 @@ const Blog = () => {
             </div>
           </div>
         </div>
-
         <div className="mt-7 m-4 ">
           <div className=" flex flex-wrap items-center justify-center ">
             <Link
@@ -413,10 +412,31 @@ const Blog = () => {
         </div>
         <div className="mt-9">
           <div className="grid grid-cols-3 gap-8">
-            {posts.map((post, index) => (
-              <Link href="/Blog" key={index}>
-                <BlogCard post={post} />
-              </Link>
+            {posts.map((post) => (
+              <div
+                key={post.id}
+                className="singleCareer group group/item w-[250px] p-[20px] bg-white rounded-[10px] hover:bg-[#0b2546] shadow-lg shadow-greyIsh-400/700 hover:shadow-lg"
+              >
+                <Link href={`/BlogCard/${post.id}`}>
+                  <Image
+                    src={post.image}
+                    alt={post.title}
+                    width={500}
+                    height={300}
+                  />
+                  <h1 className="text-[16px] font-semibold text-black group-hover:text-white">
+                    {post.title}
+                  </h1>
+                  <span className="flex items-center text-[#ccc} gap-1 group-hover:text-white">
+                    <BiTimeFive /> By {post.name} on {post.date}
+                  </span>
+                  <p className="text-[13px] text-[#959595] pt-[20px] border-t-[2px] mt-[20px] group-hover:text-white">
+                    {post.description}
+                  </p>
+                  <p>Views: {post.views}</p>
+                  <p>Comments:</p>
+                </Link>
+              </div>
             ))}
           </div>
         </div>

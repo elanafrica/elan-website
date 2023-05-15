@@ -1,9 +1,14 @@
+"use client";
+import { useParams } from "next/navigation";
+
 import Image from "next/image";
 import { AiOutlineEye } from "react-icons/ai";
 import { TfiComments } from "react-icons/tfi";
 import { FcLike } from "react-icons/fc";
 
-function BlogCard({ post }) {
+function BlogCard() {
+  const params = useParams();
+  const { post } = params;
   return (
     <div
       key={post.id}
