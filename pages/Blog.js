@@ -411,12 +411,14 @@ const Blog = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-3 gap-8 mt-9">
-          {posts.map((post) => (
-            <div className="grid grid-cols-3 gap-8">
-              <BlogCard key={post.title} post={post} />
-            </div>
-          ))}
+        <div className="mt-9">
+          <div className="grid grid-cols-3 gap-8">
+            {posts.map((post, index) => (
+              <Link href="/Blog" key={index}>
+                <BlogCard post={post} />
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
     </Layout>
