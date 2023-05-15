@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Layout from "@/components/Layout";
 import Logoh from "../public/elantraining2.jpg";
-import Elantraining from "../public/elantraining.PNG";
+import Elantraining from "../public/elantraining2.jpg";
 import Elantrain1 from "../public/elantraining2.jpg";
 import Elantrain2 from "../public/elantraining2.jpg";
 import Elantrain3 from "../public/elantraining2.jpg";
