@@ -10,15 +10,15 @@ import Logoh from "../public/elandev3.jpg";
 
 //importing images
 import Elandev1 from "../public/elandev2.jpg";
-import Elandev2 from "../public/elandev2.png";
-import Elandev3 from "../public/elandev3.png";
-import Elandev4 from "../public/elandev4.png";
-import Elandev5 from "../public/elandev5.png";
-import Elandev6 from "../public/elandev6.png";
-import Elandevcard1 from "../public/elandevcard1.png";
-import Elandevcard2 from "../public/elandevcard2.png";
-import Elandevcard3 from "../public/elandevcard3.png";
-import Elandevcard4 from "../public/elandevcard4.png";
+import Elandev2 from "../public/elandev2.jpg";
+import Elandev3 from "../public/elandev2.jpg";
+import Elandev4 from "../public/elandev2.jpg";
+import Elandev5 from "../public/elandev2.jpg";
+import Elandev6 from "../public/elandev2.jpg";
+import Elandevcard1 from "../public/elandev2.jpg";
+import Elandevcard2 from "../public/elandev2.jpg";
+import Elandevcard3 from "../public/elandev2.jpg";
+import Elandevcard4 from "../public/elandev2.jpg";
 
 function ElanDev() {
   useEffect(() => {
