@@ -46,28 +46,22 @@ function Services() {
     <Layout title="Services">
       <div className="m-4">
         <div className="  ">
-          <div
-            className=" mt-5 mb-4 text-center flex flex-wrap items-center justify-center"
-            style={{ animation: "fadeIn 1s ease-in-out" }}
-            ata-aos="fade-down"
-            data-aos-delay="400"
-          >
-            <div className=" w-1/2 pr-5">
-              <h1 className="pt-6 pb-4 text-4xl font-bold">
-                Intelligent wins. Early results. Long-term growth.
-              </h1>
-              <p className="px-6 pb-6 text-xl font-bold">
-                Elan Africa is your expert growth and execution partner. We are
-                a team of innovators across industries and we partner with the
-                best. We help many growth organizations reach their full
-                potential.
-              </p>
-            </div>
-
-            <div className="mx-auto mt-5 mb-5 w-1/2 pr-5">
-              <div className="">
+          <div className="mt-9">
+            <div className="flex flex-wrap items-center justify-center">
+              <div className="mt-7 w-full md:w-1/2 lg:w-1/3 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in">
+                <p className="text-3xl md:text-4xl font-bold text-center uppercase tracking-wider">
+                  Intelligent wins. Early results. Long-term growth.
+                </p>
+                <p className="text-lg md:text-xl font-medium text-center mt-3">
+                  Elan Africa is your expert growth and execution partner. We
+                  are a team of innovators across industries and we partner with
+                  the best. We help many growth organizations reach their full
+                  potential.
+                </p>
+              </div>
+              <div className="mt-7 w-full md:w-1/2 lg:w-2/3 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in">
                 <Image
-                  className="w-full homepage22 mb-5"
+                  className="w-full rounded-lg shadow-lg"
                   src={ServicesHero}
                   alt="serviceshero"
                 />
@@ -178,12 +172,6 @@ function Services() {
 
         <div className="mt-7 g-2 flex flex-wrap items-center justify-center  ">
           <div className="w-1/2 pr-5">
-            <h2 className="text-red text-3xl mb-5">
-              Elan Africa comes with proven experience and a network of top
-              talent to help your team in varying areas.
-            </h2>
-          </div>
-          <div className="w-1/2 pr-5">
             <div className="flex g-2 flex-wrap items-center justify-center">
               <div className="rounded-lg shadow-lg p-6  mb-4 ">
                 <h4 className="text-[#346294] font-bold text-xl">
@@ -228,6 +216,12 @@ function Services() {
                 </p>
               </div>
             </div>
+          </div>
+          <div className="w-1/2 pr-5">
+            <h2 className="text-red text-3xl mb-5">
+              Elan Africa comes with proven experience and a network of top
+              talent to help your team in varying areas.
+            </h2>
           </div>
         </div>
       </div>
