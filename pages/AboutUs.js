@@ -46,7 +46,7 @@ function AboutUs() {
     <Layout title="AboutUs">
       <div>
         <div className="bg-[rgb(7,39,78)] text-white">
-          <section className="container items-center px-4 pb-12 mt-20 lg:flex md:px-40">
+          <section className="container items-center px-4 pb-12 mt-9 lg:flex md:px-40">
             <div className="flex-1 space-y-4 sm:text-center lg:text-left">
               <h1
                 className="text-4xl font-bold text-teal-400 md: flex justify-center lg:justify-start"
