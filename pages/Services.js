@@ -2,10 +2,10 @@ import React, { useEffect } from "react";
 import Layout from "@/components/Layout";
 
 import ServicesHero from "../public/sevices.jpg";
-import Home2 from "../public/elan1.png";
-import Home3 from "../public/elan2.png";
-import Home4 from "../public/elan3.png";
-import Home5 from "../public/elan4.png";
+import Home2 from "../public/elandev2.jpg";
+import Home3 from "../public/elandev2.jpg";
+import Home4 from "../public/elandev2.jpg";
+import Home5 from "../public/elandev2.jpg";
 
 import Image from "next/image";
 import Link from "next/link";

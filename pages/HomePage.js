@@ -1,35 +1,35 @@
 import React, { useEffect } from "react";
 import Layout from "../components/Layout";
-import Hero from "../public/star3.png";
-import Home1 from "../public/elanpic2.png";
-import Home2 from "../public/elan1.png";
-import Home3 from "../public/elan2.png";
-import Home4 from "../public/elan3.png";
-import Home5 from "../public/elan4.png";
-import Show1 from "../public/show1.png";
-import Show2 from "../public/show2.png";
-import Show3 from "../public/show3.png";
-import Show4 from "../public/show4.png";
-import Show5 from "../public/show5.png";
-import Show6 from "../public/show6.png";
-import Show7 from "../public/show7.png";
-import Show8 from "../public/show8.png";
+import Hero from "../public/elangrowth.jpg";
+import Home1 from "../public/elangrowth.jpg";
+import Home2 from "../public/elangrowth.jpg";
+import Home3 from "../public/elangrowth.jpg";
+import Home4 from "../public/elangrowth.jpg";
+import Home5 from "../public/elangrowth.jpg";
+import Show1 from "../public/elangrowth.jpg";
+import Show2 from "../public/elangrowth.jpg";
+import Show3 from "../public/elangrowth.jpg";
+import Show4 from "../public/elangrowth.jpg";
+import Show5 from "../public/elangrowth.jpg";
+import Show6 from "../public/elangrowth.jpg";
+import Show7 from "../public/elangrowth.jpg";
+import Show8 from "../public/elangrowth.jpg";
 
 //importing animate on scrol
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 //importing images
-import jumia from "../public/assets/jumia.png";
-import aerix from "../public/assets/aerix.png";
-import max from "../public/assets/max.png";
-import gomarket from "../public/assets/gomarket.png";
-import microsoft from "../public/assets/microsoft.png";
-import kobo from "../public/assets/kobo.png";
-import konga from "../public/assets/konga.png";
-import fazsion from "../public/assets/fazsion.png";
-import mrprice from "../public/assets/mrprice.png";
-import playns from "../public/assets/playns.png";
+// import jumia from "../public/assets/jumia.png";
+// import aerix from "../public/assets/aerix.png";
+// import max from "../public/assets/max.png";
+// import gomarket from "../public/assets/gomarket.png";
+// import microsoft from "../public/assets/microsoft.png";
+// import kobo from "../public/assets/kobo.png";
+// import konga from "../public/assets/konga.png";
+// import fazsion from "../public/assets/fazsion.png";
+// import mrprice from "../public/assets/mrprice.png";
+// import playns from "../public/assets/playns.png";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -313,7 +313,7 @@ function HomePage() {
               </p>
             </div>
             <div className="slider my-10 ">
-              <div className="slideTrack">
+              {/* <div className="slideTrack">
                 <div className="slide">
                   <Image src={aerix} alt="" className="imgPartner" />
                 </div>
@@ -344,7 +344,7 @@ function HomePage() {
                 <div className="slide">
                   <Image src={konga} alt="" className="imgPartner" />
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
