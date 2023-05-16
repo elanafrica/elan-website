@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Layout from "@/components/Layout";
 
 import Logoh from "../public/howthisworks.jpg";
-import Elangrowth1 from "../public/elangrowth.png";
+import Elangrowth1 from "../public/growth.jpg";
 import Elangrowth2 from "../public/ourservices.jpg";
 import Elangrowth3 from "../public/growth.jpg";
 import Elangrowth4 from "../public/growthmarketing.jpg";
