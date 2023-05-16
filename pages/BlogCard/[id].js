@@ -12,7 +12,7 @@ function BlogPost() {
       image: "",
       title: "How to maximize your marketing budget",
       content:
-        "Marketing plays a crucial role in the growth and success of any business. However, with limited..",
+        "Marketing plays a crucial role in the growth and success of any business. However, with limited resources and budgets, it can be challenging to determine where to invest for maximum returns. In order to get the most out of your marketing budget, it is essential to carefully assess your options and prioritize your spending. One key factor to consider is your target audience. Depending on who you are trying to reach, certain marketing channels may be more effective than others. For example, if you are targeting a younger demographic, social media advertising may be the way to go. If your audience is older, traditional advertising methods such as television or print ads may still be effective.  ",
     },
     {
       id: 2,
