@@ -2,33 +2,11 @@ import React, { useEffect } from "react";
 import Layout from "@/components/Layout";
 
 import ServicesHero from "../public/sevices.jpg";
-import Home2 from "../public/elan1.PNG";
-import Home3 from "../public/elan2.PNG";
-import Home4 from "../public/elan3.PNG";
-import Home5 from "../public/elan4.PNG";
-import Show1 from "../public/show1.PNG";
-import Show2 from "../public/show2.PNG";
-import Show3 from "../public/show3.PNG";
-import Show4 from "../public/show4.PNG";
-import Show5 from "../public/show5.PNG";
-import Show6 from "../public/show6.PNG";
-import Show7 from "../public/show7.PNG";
-import Show8 from "../public/show8.PNG";
-import Brand1 from "../public/brand1.PNG";
-import Brand2 from "../public/brand2.PNG";
-import Brand3 from "../public/brand3.PNG";
-import Brand4 from "../public/brand4.PNG";
-import Brand5 from "../public/brand5.PNG";
-import Brand6 from "../public/brand6.PNG";
-import Brand7 from "../public/brand7.PNG";
-import Brand8 from "../public/brand8.PNG";
-import Brand9 from "../public/brand9.PNG";
-import Brand10 from "../public/brand10.PNG";
-import Brand11 from "../public/brand11.PNG";
-import Brand12 from "../public/brand12.PNG";
-import Brand13 from "../public/brand13.PNG";
-import Brand14 from "../public/brand14.PNG";
-import Brand15 from "../public/brand15.PNG";
+import Home2 from "../public/elan1.png";
+import Home3 from "../public/elan2.png";
+import Home4 from "../public/elan3.png";
+import Home5 from "../public/elan4.png";
+
 import Image from "next/image";
 import Link from "next/link";
 //importing animate on scrol
@@ -46,27 +24,37 @@ function Services() {
     <Layout title="Services">
       <div className="m-4">
         <div className="  ">
-          <div className="mt-9">
-            <div className="flex flex-wrap items-center justify-center">
-              <div className="mt-7 w-full md:w-1/2 lg:w-1/3 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in">
-                <p className="text-3xl md:text-4xl font-bold text-center uppercase tracking-wider">
-                  Intelligent wins. Early results. Long-term growth.
-                </p>
-                <p className="text-lg md:text-xl font-medium text-center mt-3">
+          <div className="bg-[rgb(7,39,78)] text-white">
+            <section className="container items-center px-4 pb-12 mt-9 lg:flex md:px-40 g-5">
+              <div className="flex-1 space-y-4 sm:text-center lg:text-left">
+                <h1
+                  className="text-4xl font-bold text-teal-400 md: flex justify-center lg:justify-start"
+                  data-aos="fade-down"
+                  data-aos-delay="400"
+                >
+                  INTELLIGENT WINS. EARLY RESULTS. LONG-TERM GROWTH.
+                </h1>
+                <p
+                  className="max-w-xl leading-relaxed text-gray-300 text-2xl font-bold sm:mx-auto lg:ml-0 lg:mr-15"
+                  data-aos="fade-down"
+                  data-aos-delay="400"
+                >
                   Elan Africa is your expert growth and execution partner. We
                   are a team of innovators across industries and we partner with
                   the best. We help many growth organizations reach their full
                   potential.
                 </p>
               </div>
-              <div className="mt-7 w-full md:w-1/2 lg:w-2/3 pr-5 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 animate-fade-in">
+              <div className="hidden h-[450px] w-[450px] md:inline lg:h-[550px] lg:w-[500px]">
                 <Image
-                  className="w-full rounded-lg shadow-lg"
                   src={ServicesHero}
-                  alt="serviceshero"
+                  className="w-72 mt-6 sm:w-10/12 lg:w-full"
+                  data-aos="fade-down"
+                  data-aos-delay="400"
+                  alt="hero"
                 />
               </div>
-            </div>
+            </section>
           </div>
 
           <div className="mt-7 g-2 flex flex-wrap items-center justify-center">

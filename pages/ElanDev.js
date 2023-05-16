@@ -20,7 +20,6 @@ import Elandevcard2 from "../public/elandevcard2.png";
 import Elandevcard3 from "../public/elandevcard3.png";
 import Elandevcard4 from "../public/elandevcard4.png";
 
-
 function ElanDev() {
   useEffect(() => {
     Aos.init({
@@ -28,7 +27,7 @@ function ElanDev() {
       offset: 0,
     });
   }, []);
-  
+
   return (
     <Layout title="ElanDev">
       <div className="m-4">

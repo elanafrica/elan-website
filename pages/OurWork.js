@@ -5,31 +5,31 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 import Logoh from "../public/elangrowth.jpg";
-import ElanWork1 from "../public/elanwork1.PNG";
-import ElanWork2 from "../public/elanwork2.PNG";
-import ElanWork3 from "../public/elanwork3.PNG";
-import ElanWork4 from "../public/elanwork4.PNG";
-import ElanWork5 from "../public/elanwork5.PNG";
-import ElanWork6 from "../public/elanwork6.PNG";
-import ElanWork7 from "../public/elanwork7.PNG";
-import ElanWork8 from "../public/elanwork8.PNG";
-import ElanWork9 from "../public/elanwork9.PNG";
-import ElanWork10 from "../public/elanwork10.PNG";
-import ElanWork11 from "../public/elanwork11.PNG";
-import ElanWork12 from "../public/elanwork12.PNG";
-import ElanWork13 from "../public/elanwork13.PNG";
-import ElanWork14 from "../public/elanwork14.PNG";
-import ElanWork15 from "../public/elanwork15.PNG";
-import ElanWork16 from "../public/elanwork16.PNG";
-import ElanWork17 from "../public/elanwork17.PNG";
-import ElanWork18 from "../public/elanwork18.PNG";
-import ElanWork19 from "../public/elanwork19.PNG";
-import ElanWork20 from "../public/elanwork20.PNG";
-import ElanWork21 from "../public/elanwork21.PNG";
-import ElanWork22 from "../public/elanwork22.PNG";
-import ElanWork23 from "../public/elanwork23.PNG";
-import ElanWork24 from "../public/elanwork24.PNG";
-import ElanWork25 from "../public/elanwork25.PNG";
+import ElanWork1 from "../public/elanwork1.png";
+import ElanWork2 from "../public/elanwork2.png";
+import ElanWork3 from "../public/elanwork3.png";
+import ElanWork4 from "../public/elanwork4.png";
+import ElanWork5 from "../public/elanwork5.png";
+import ElanWork6 from "../public/elanwork6.png";
+import ElanWork7 from "../public/elanwork7.png";
+import ElanWork8 from "../public/elanwork8.png";
+import ElanWork9 from "../public/elanwork9.png";
+import ElanWork10 from "../public/elanwork10.png";
+import ElanWork11 from "../public/elanwork11.png";
+import ElanWork12 from "../public/elanwork12.png";
+import ElanWork13 from "../public/elanwork13.png";
+import ElanWork14 from "../public/elanwork14.png";
+import ElanWork15 from "../public/elanwork15.png";
+import ElanWork16 from "../public/elanwork16.png";
+import ElanWork17 from "../public/elanwork17.png";
+import ElanWork18 from "../public/elanwork18.png";
+import ElanWork19 from "../public/elanwork19.png";
+import ElanWork20 from "../public/elanwork20.png";
+import ElanWork21 from "../public/elanwork21.png";
+import ElanWork22 from "../public/elanwork22.png";
+import ElanWork23 from "../public/elanwork23.png";
+import ElanWork24 from "../public/elanwork24.png";
+import ElanWork25 from "../public/elanwork25.png";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -265,7 +265,7 @@ function OurWork() {
       <div>
         <Testimonials />
       </div>
-      
+
       <div className=" m-4  mt-7 flex flex-wrap items-center justify-center">
         <div className="w-1/2 pr-5 mt-7 mb-5">
           <h2 className="text-4xl mb-5">Start a project with us today.</h2>
