@@ -463,7 +463,7 @@ function AboutUs() {
 
         {/* partner brands */}
         <div className="slider my-10">
-          <div className="slideTrack">
+          {/* <div className="slideTrack">
             <div className="slide">
               <Image src={aerix} className="imgPartner" alt="aerix" />
             </div>
@@ -494,7 +494,7 @@ function AboutUs() {
             <div className="slide">
               <Image src={konga} className="imgPartner" alt="konga" />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </Layout>

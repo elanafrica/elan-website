@@ -39,12 +39,6 @@ function BlogCard() {
           <span>{post.likes}</span>
         </p>
       </div>
-      {/* {post.comments.map((comment) => (
-        <div key={comment.email}>
-          <p>{comment.name} said:</p>
-          <p>{comment.comment}</p>
-        </div>
-      ))} */}
     </div>
   );
 }
