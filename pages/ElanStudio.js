@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "@/components/Layout";
 import Image from "next/image";
 import Link from "next/link";
-//importing images
+
 import Logoh from "../public/elanstudio.jpg";
 import Elanstud from "../public/elangrowth.jpg";
 import Elanstud2 from "../public/elangrowth.jpg";

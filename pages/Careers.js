@@ -6,7 +6,6 @@ import careerHero from "../public/careerHero.jpeg";
 import { BiTimeFive } from "react-icons/bi";
 import { GrGrommet, GrPowerCycle, GrAchievement } from "react-icons/gr";
 
-// creating high order array method for all the jobs
 const Data = [
   {
     id: 1,
