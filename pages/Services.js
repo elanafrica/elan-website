@@ -9,7 +9,7 @@ import Home5 from "../public/elandev2.jpg";
 
 import Image from "next/image";
 import Link from "next/link";
-//importing animate on scrol
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 
