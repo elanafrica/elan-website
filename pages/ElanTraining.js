@@ -5,7 +5,7 @@ import Elantraining from "../public/elantraining2.jpg";
 import Elantrain1 from "../public/elantraining2.jpg";
 import Elantrain2 from "../public/elantraining2.jpg";
 import Elantrain3 from "../public/elantraining2.jpg";
-//importing icons
+
 import { DiUnitySmall } from "react-icons/di";
 import { BiCodeAlt } from "react-icons/bi";
 import {

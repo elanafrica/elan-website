@@ -12,7 +12,6 @@ import Elangrowth7 from "../public/ecommerceagency.jpg";
 import Elangrowth8 from "../public/ondemandcmo.jpg";
 import Elangrowth9 from "../public/marketingprojects.jpg";
 
-//importing animate on scrol
 import Aos from "aos";
 import "aos/dist/aos.css";
 

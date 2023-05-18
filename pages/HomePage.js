@@ -15,21 +15,19 @@ import Show6 from "../public/elangrowth.jpg";
 import Show7 from "../public/elangrowth.jpg";
 import Show8 from "../public/elangrowth.jpg";
 
-//importing animate on scrol
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-//importing images
-// import jumia from "../public/assets/jumia.png";
-// import aerix from "../public/assets/aerix.png";
-// import max from "../public/assets/max.png";
-// import gomarket from "../public/assets/gomarket.png";
-// import microsoft from "../public/assets/microsoft.png";
-// import kobo from "../public/assets/kobo.png";
-// import konga from "../public/assets/konga.png";
-// import fazsion from "../public/assets/fazsion.png";
-// import mrprice from "../public/assets/mrprice.png";
-// import playns from "../public/assets/playns.png";
+import jumia from "../public/assets/jumia.png";
+import aerix from "../public/assets/aerix.png";
+import max from "../public/assets/max.png";
+import gomarket from "../public/assets/gomarket.png";
+import microsoft from "../public/assets/microsoft.png";
+import kobo from "../public/assets/kobo.png";
+import konga from "../public/assets/konga.png";
+import fazsion from "../public/assets/fazsion.png";
+import mrprice from "../public/assets/mrprice.png";
+import playns from "../public/assets/playns.png";
 
 import Image from "next/image";
 import Link from "next/link";

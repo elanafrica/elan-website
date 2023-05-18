@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
 import Layout from "@/components/Layout";
 
-//importing animate on scrol
 import Aos from "aos";
 import "aos/dist/aos.css";
-//importing icons
+
 import { DiUnitySmall } from "react-icons/di";
 import { BiCodeAlt } from "react-icons/bi";
 import {

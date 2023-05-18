@@ -3,12 +3,10 @@ import Layout from "@/components/Layout";
 import Image from "next/image";
 import Link from "next/link";
 
-//importing animate on scroll
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Logoh from "../public/elandev3.jpg";
 
-//importing images
 import Elandev1 from "../public/elandev2.jpg";
 import Elandev2 from "../public/elandev2.jpg";
 import Elandev3 from "../public/elandev2.jpg";
