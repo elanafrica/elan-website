@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
   plugins: {
     tailwindcss: {},
@@ -6,6 +8,12 @@ module.exports = {
   experimental: {
     images: {
       unoptimized: true,
+    },
+  },
+  resolve: {
+    extensions: [".ts", ".tsx", ".js", ".jsx"],
+    alias: {
+      "@": path.resolve(__dirname),
     },
   },
 };
