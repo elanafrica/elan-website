@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Layout from "../components/Layout";
-import Hero from "../public/elangrowth.jpg";
-import Home1 from "../public/elangrowth.jpg";
+import Hero from "../public/star3.png";
+import Home1 from "../public/africa.jpg";
 import Home2 from "../public/elangrowth.jpg";
 import Home3 from "../public/elangrowth.jpg";
 import Home4 from "../public/elangrowth.jpg";
@@ -305,13 +305,13 @@ function HomePage() {
                 Brands we’ve worked with, for, and built awesome memories...
               </div>
               <hr></hr>
-              <p>
+              <p className="p-6 text-xl text-center pr-5  homepage2">
                 Over the years we have been opportune to lead various growth,
                 sales, creative and marketing efforts through the years.
               </p>
             </div>
             <div className="slider my-10 ">
-              {/* <div className="slideTrack">
+              <div className="slideTrack">
                 <div className="slide">
                   <Image src={aerix} alt="" className="imgPartner" />
                 </div>
@@ -342,7 +342,7 @@ function HomePage() {
                 <div className="slide">
                   <Image src={konga} alt="" className="imgPartner" />
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
