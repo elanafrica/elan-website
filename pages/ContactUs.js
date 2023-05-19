@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import Layout from "../components/Layout";
+import { GoLocation } from 'react-icons/go'
+import { HiOutlineMailOpen } from 'react-icons/hi'
 function ContactUs() {
   const [name, setName ] = useState('')
   const [email, setEmail ] = useState('')
@@ -50,7 +52,7 @@ function ContactUs() {
           <div className=" flex flex-col justify-around md:flex-row md:space-x-6 space-y-6 md:space-y-0 bg-[rgb(7,39,78)] w-full max-w-6xl p-8 rounded-xl shadow-lg text-white">
             <div className="flex flex-col justify-around">
               <div>
-                <h3 class="font-bold text-4xl">
+                <h3 className="font-bold text-4xl">
                   Reinvent your experience with us
                 </h3>
                 <p className="pt-2 text-white text-xl">We will help you get there. Free growth consultancy for  businesses like yours.</p>
