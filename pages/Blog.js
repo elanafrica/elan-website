@@ -15,14 +15,62 @@ import ElanBlog9 from "../public/elandev2.jpg";
 import ElanBlog10 from "../public/elandev2.jpg";
 import ElanBlog11 from "../public/elandev2.jpg";
 import ElanBlog12 from "../public/elandev2.jpg";
+import ElanBlog13 from "../public/elandev2.jpg";
+import ElanBlog14 from "../public/elandev2.jpg";
 
 import { BiTimeFive } from "react-icons/bi";
-import { GrGrommet, GrPowerCycle, GrAchievement } from "react-icons/gr";
-import BlogCard from "./BlogCard";
 
 const posts = [
   {
     id: 1,
+    name: "Amabel Ukoko",
+    title: "The death of SEO by AI (Debunking the myth)",
+    description:
+      "Search Engine Optimization (SEO) has been an integral part of digital marketing since the inception of search engines. SEO refers to the practice of ",
+    date: "May 17",
+    views: "",
+    comments: [
+      {
+        name: "Jane Doe",
+        email: "janedoe@example.com",
+        comment:
+          "Great post, John! I couldn't agree more about the importance of exercise. I try to get at least 30 minutes of activity every day, and I've definitely noticed the benefits.",
+      },
+      {
+        name: "Bob Johnson",
+        email: "bjohnson@example.com",
+        comment:
+          "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
+      },
+    ],
+    image: ElanBlog13,
+  },
+  {
+    id: 2,
+    name: "Ruth Torty",
+    title: "How to create a Marketing Plan that Works.",
+    description:
+      "Ignoring online marketing is like opening a business but not telling anyone. — KB Marketing Agency...",
+    date: "May 15",
+    views: 152,
+    comments: [
+      {
+        name: "Jane Doe",
+        email: "janedoe@example.com",
+        comment:
+          "Great post, John! I couldn't agree more about the importance of exercise. I try to get at least 30 minutes of activity every day, and I've definitely noticed the benefits.",
+      },
+      {
+        name: "Bob Johnson",
+        email: "bjohnson@example.com",
+        comment:
+          "Thanks for sharing your insights, John. I've been struggling to get into a regular exercise routine, but your post has inspired me to give it another try.",
+      },
+    ],
+    image: ElanBlog14,
+  },
+  {
+    id: 3,
     name: "Amabel Ukoko",
     title: "How to maximize your marketing budget",
     description:
@@ -46,7 +94,7 @@ const posts = [
     image: ElanBlog1,
   },
   {
-    id: 2,
+    id: 4,
     name: "Ruth Torty",
     title: "11 marketing strategies to attract and retain...",
     description:
@@ -70,7 +118,7 @@ const posts = [
     image: ElanBlog2,
   },
   {
-    id: 3,
+    id: 5,
     name: "Amabel Ukoko",
     title: "Is Email Marketing Dead?",
     description:
@@ -94,7 +142,7 @@ const posts = [
     image: ElanBlog3,
   },
   {
-    id: 4,
+    id: 6,
     name: "Ruth Torty",
     title: "A Guide to How SMEs Can Ideentify Their Target Audience",
     description:
@@ -118,7 +166,7 @@ const posts = [
     image: ElanBlog4,
   },
   {
-    id: 5,
+    id: 7,
     name: "Amabel Ukoko",
     title: "Invest Wisely: 5 Things to Know Before You Start",
     description:
@@ -142,7 +190,7 @@ const posts = [
     image: ElanBlog5,
   },
   {
-    id: 6,
+    id: 8,
     name: "Ruth Torty",
     title: "5 Free Courses Every Founder & Entrepreneur Should...",
     description:
@@ -166,7 +214,7 @@ const posts = [
     image: ElanBlog6,
   },
   {
-    id: 7,
+    id: 9,
     name: "Ifeoma Okwy-Ejezie",
     title: "B2B Growth Hacking Strategies",
     description:
@@ -190,7 +238,7 @@ const posts = [
     image: ElanBlog7,
   },
   {
-    id: 8,
+    id: 10,
     name: "Ruth Torty",
     title: "Mental Health in The Workplace: How To Build Safe Spaces Fo...",
     description:
@@ -214,7 +262,7 @@ const posts = [
     image: ElanBlog8,
   },
   {
-    id: 9,
+    id: 11,
     name: "Ruth Torty",
     title: "11 Tips For Managing Remote Teams In Africa..",
     description:
@@ -238,7 +286,7 @@ const posts = [
     image: ElanBlog9,
   },
   {
-    id: 10,
+    id: 12,
     name: "Ifeoma Okwy-Ejezie",
     title: "Why your business needs proper growth marketing",
     description:
@@ -262,7 +310,7 @@ const posts = [
     image: ElanBlog10,
   },
   {
-    id: 11,
+    id: 13,
     name: "Team Elan",
     title: " All the talk about the perfect business plan for business growth!",
     description:
@@ -286,7 +334,7 @@ const posts = [
     image: ElanBlog11,
   },
   {
-    id: 12,
+    id: 14,
     name: "Afam Anyika",
     title: "Customer experience that enhances direct marketing and...",
     description:
