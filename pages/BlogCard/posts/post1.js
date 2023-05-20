@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 // import Post1Hero from ".../public/ElanBlogHero";
 import Link from "next/link";
 
@@ -110,9 +110,9 @@ function Post1() {
           role of Artificial Intelligence (AI) in SEO and whether it will render
           traditional SEO practices obsolete.
         </p>
-        <div>
+        {/* <div>
           <Image />
-        </div>
+        </div> */}
         <div>
           <p>
             It is also important to understand what we mean by AI in the context
