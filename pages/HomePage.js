@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Layout from "../components/Layout";
-import Hero from "../public/star3.png";
+// import Hero from "../public/star3.png";
 import Home1 from "../public/africa.jpg";
 import Home2 from "../public/elangrowth.jpg";
 import Home3 from "../public/elangrowth.jpg";
